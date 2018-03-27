@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.1">
+    <MODULE library="shapes_grid" id="2" name="Grid Statistics for Polygons">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+        <CELLSIZE>0.0083333333</CELLSIZE>
+        <XMIN>-179.9958333333</XMIN>
+        <XMAX>179.9958318934</XMAX>
+        <YMIN>-61.9925</YMIN>
+        <YMAX>87.3658327359</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="NAMING" name="Field Naming" index="1">grid name</OPTION>
+      <OPTION type="choice" id="METHOD" name="Method" index="0">simple and fast</OPTION>
+      <OPTION type="boolean" id="COUNT" name="Number of Cells">TRUE</OPTION>
+      <OPTION type="boolean" id="MIN" name="Minimum">TRUE</OPTION>
+      <OPTION type="boolean" id="MAX" name="Maximum">TRUE</OPTION>
+      <OPTION type="boolean" id="RANGE" name="Range">TRUE</OPTION>
+      <OPTION type="boolean" id="SUM" name="Sum">TRUE</OPTION>
+      <OPTION type="boolean" id="MEAN" name="Mean">TRUE</OPTION>
+      <OPTION type="boolean" id="VAR" name="Variance">TRUE</OPTION>
+      <OPTION type="boolean" id="STDDEV" name="Standard Deviation">TRUE</OPTION>
+      <OPTION type="integer" id="QUANTILE" name="Quantile">0</OPTION>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+        <ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+          <FILE>/data/tmp/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll.sgrd</FILE>
+        </ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll>
+      </INPUT_LIST>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>/data/PNV/Data/global/tiles_ll_200km.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes" id="RESULT" name="Statistics">tiles_ll_200km [Grid Statistics]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE></FILE>
+    <DATABASE>
+      <FIELDS>
+        <FIELD TYPE="DOUBLE">xl</FIELD>
+        <FIELD TYPE="DOUBLE">yl</FIELD>
+        <FIELD TYPE="DOUBLE">xu</FIELD>
+        <FIELD TYPE="DOUBLE">yu</FIELD>
+        <FIELD TYPE="DOUBLE">offst_y</FIELD>
+        <FIELD TYPE="DOUBLE">offst_x</FIELD>
+        <FIELD TYPE="DOUBLE">rgn_dm_y</FIELD>
+        <FIELD TYPE="DOUBLE">rgn_dm_x</FIELD>
+        <FIELD TYPE="STRING">ID</FIELD>
+        <FIELD TYPE="INTEGER">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [CELLS]</FIELD>
+        <FIELD TYPE="DOUBLE">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [MIN]</FIELD>
+        <FIELD TYPE="DOUBLE">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [MAX]</FIELD>
+        <FIELD TYPE="DOUBLE">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [RANGE]</FIELD>
+        <FIELD TYPE="DOUBLE">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [SUM]</FIELD>
+        <FIELD TYPE="DOUBLE">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [MEAN]</FIELD>
+        <FIELD TYPE="DOUBLE">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [VARIANCE]</FIELD>
+        <FIELD TYPE="DOUBLE">ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_1km_ll [STDDEV]</FIELD>
+      </FIELDS>
+    </DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]
+</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>

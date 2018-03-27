@@ -1,0 +1,185 @@
+Layers,"latitude=37.957332, longitude=-2.163181",Month,Percent,Type_v
+pnv_biome.type_biome00k_c_1km_s0..0cm_2000..2017_v0.1.tif,20,,,
+pnv_biome.type_biome00k_sse_1km_s0..0cm_2000..2017_v0.1.tif,52,,,
+pnv_biome.type_biome00k.cold.deciduous.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.cold.evergreen.needleleaf.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.cool.evergreen.needleleaf.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.cool.mixed.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,1,,,
+pnv_biome.type_biome00k.cool.temperate.rainforest_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.desert_p_1km_s0..0cm_2000..2017_v0.1.tif,6,,,
+pnv_biome.type_biome00k.erect.dwarf.shrub.tundra_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.graminoid.and.forb.tundra_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.low.and.high.shrub.tundra_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.prostrate.dwarf.shrub.tundra_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.steppe_p_1km_s0..0cm_2000..2017_v0.1.tif,14,,,
+pnv_biome.type_biome00k.temperate.deciduous.broadleaf.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,11,,,
+pnv_biome.type_biome00k.temperate.evergreen.needleleaf.open.woodland_p_1km_s0..0cm_2000..2017_v0.1.tif,2,,,
+pnv_biome.type_biome00k.temperate.sclerophyll.woodland.and.shrubland_p_1km_s0..0cm_2000..2017_v0.1.tif,1,,,
+pnv_biome.type_biome00k.tropical.deciduous.broadleaf.forest.and.woodland_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.tropical.evergreen.broadleaf.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.tropical.savanna_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.tropical.semi.evergreen.broadleaf.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_biome.type_biome00k.warm.temperate.evergreen.and.mixed.forest_p_1km_s0..0cm_2000..2017_v0.1.tif,19,,,
+pnv_biome.type_biome00k.xerophytic.woods.scrub_p_1km_s0..0cm_2000..2017_v0.1.tif,44,,,
+pnv_fapar_proba.v.annual_d_1km_s0..0cm_2014..2017_v0.1.tif,57,,0.23,
+pnv_fapar_proba.v.annual_sd_1km_s0..0cm_2014..2017_v0.1.tif,137,,0.54,
+pnv_fapar_proba.v.apr_d_1km_s0..0cm_2014..2017_v0.1.tif,66,April,0.26,Median
+pnv_fapar_proba.v.apr_sd_1km_s0..0cm_2014..2017_v0.1.tif,42,April,0.17,SD
+pnv_fapar_proba.v.apr_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,48,April,0.19,SD.upper
+pnv_fapar_proba.v.apr_u.975_1km_s0..0cm_2014..2017_v0.1.tif,92,April,0.36,Upper
+pnv_fapar_proba.v.aug_d_1km_s0..0cm_2014..2017_v0.1.tif,36,August,0.14,Median
+pnv_fapar_proba.v.aug_sd_1km_s0..0cm_2014..2017_v0.1.tif,26,August,0.10,SD
+pnv_fapar_proba.v.aug_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,39,August,0.15,SD.upper
+pnv_fapar_proba.v.aug_u.975_1km_s0..0cm_2014..2017_v0.1.tif,57,August,0.23,Upper
+pnv_fapar_proba.v.dec_d_1km_s0..0cm_2014..2017_v0.1.tif,64,December,0.25,Median
+pnv_fapar_proba.v.dec_sd_1km_s0..0cm_2014..2017_v0.1.tif,34,December,0.13,SD
+pnv_fapar_proba.v.dec_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,45,December,0.18,SD.upper
+pnv_fapar_proba.v.dec_u.975_1km_s0..0cm_2014..2017_v0.1.tif,93,December,0.37,Upper
+pnv_fapar_proba.v.feb_d_1km_s0..0cm_2014..2017_v0.1.tif,56,February,0.22,Median
+pnv_fapar_proba.v.feb_sd_1km_s0..0cm_2014..2017_v0.1.tif,37,February,0.15,SD
+pnv_fapar_proba.v.feb_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,41,February,0.16,SD.upper
+pnv_fapar_proba.v.feb_u.975_1km_s0..0cm_2014..2017_v0.1.tif,84,February,0.33,Upper
+pnv_fapar_proba.v.jan_d_1km_s0..0cm_2014..2017_v0.1.tif,57,January,0.23,Median
+pnv_fapar_proba.v.jan_sd_1km_s0..0cm_2014..2017_v0.1.tif,46,January,0.18,SD
+pnv_fapar_proba.v.jan_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,42,January,0.17,SD.upper
+pnv_fapar_proba.v.jan_u.975_1km_s0..0cm_2014..2017_v0.1.tif,88,January,0.35,Upper
+pnv_fapar_proba.v.jul_d_1km_s0..0cm_2014..2017_v0.1.tif,34,July,0.13,Median
+pnv_fapar_proba.v.jul_sd_1km_s0..0cm_2014..2017_v0.1.tif,22,July,0.09,SD
+pnv_fapar_proba.v.jul_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,37,July,0.15,SD.upper
+pnv_fapar_proba.v.jul_u.975_1km_s0..0cm_2014..2017_v0.1.tif,54,July,0.21,Upper
+pnv_fapar_proba.v.jun_d_1km_s0..0cm_2014..2017_v0.1.tif,61,June,0.24,Median
+pnv_fapar_proba.v.jun_sd_1km_s0..0cm_2014..2017_v0.1.tif,36,June,0.14,SD
+pnv_fapar_proba.v.jun_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,48,June,0.19,SD.upper
+pnv_fapar_proba.v.jun_u.975_1km_s0..0cm_2014..2017_v0.1.tif,76,June,0.30,Upper
+pnv_fapar_proba.v.mar_d_1km_s0..0cm_2014..2017_v0.1.tif,61,March,0.24,Median
+pnv_fapar_proba.v.mar_sd_1km_s0..0cm_2014..2017_v0.1.tif,40,March,0.16,SD
+pnv_fapar_proba.v.mar_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,44,March,0.17,SD.upper
+pnv_fapar_proba.v.mar_u.975_1km_s0..0cm_2014..2017_v0.1.tif,86,March,0.34,Upper
+pnv_fapar_proba.v.may_d_1km_s0..0cm_2014..2017_v0.1.tif,64,May,0.25,Median
+pnv_fapar_proba.v.may_sd_1km_s0..0cm_2014..2017_v0.1.tif,41,May,0.16,SD
+pnv_fapar_proba.v.may_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,45,May,0.18,SD.upper
+pnv_fapar_proba.v.may_u.975_1km_s0..0cm_2014..2017_v0.1.tif,91,May,0.36,Upper
+pnv_fapar_proba.v.nov_d_1km_s0..0cm_2014..2017_v0.1.tif,83,November,0.33,Median
+pnv_fapar_proba.v.nov_sd_1km_s0..0cm_2014..2017_v0.1.tif,53,November,0.21,SD
+pnv_fapar_proba.v.nov_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,50,November,0.20,SD.upper
+pnv_fapar_proba.v.nov_u.975_1km_s0..0cm_2014..2017_v0.1.tif,113,November,0.45,Upper
+pnv_fapar_proba.v.oct_d_1km_s0..0cm_2014..2017_v0.1.tif,62,October,0.25,Median
+pnv_fapar_proba.v.oct_sd_1km_s0..0cm_2014..2017_v0.1.tif,39,October,0.15,SD
+pnv_fapar_proba.v.oct_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,47,October,0.19,SD.upper
+pnv_fapar_proba.v.oct_u.975_1km_s0..0cm_2014..2017_v0.1.tif,84,October,0.33,Upper
+pnv_fapar_proba.v.sep_d_1km_s0..0cm_2014..2017_v0.1.tif,43,September,0.17,Median
+pnv_fapar_proba.v.sep_sd_1km_s0..0cm_2014..2017_v0.1.tif,34,September,0.13,SD
+pnv_fapar_proba.v.sep_sd.u.975_1km_s0..0cm_2014..2017_v0.1.tif,40,September,0.16,SD.upper
+pnv_fapar_proba.v.sep_u.975_1km_s0..0cm_2014..2017_v0.1.tif,59,September,0.23,Upper
+veg_fapar_proba.v.annual_d_250m_s0..0cm_2014..2017_v1.0.tif,30,,0.12,
+veg_fapar_proba.v.annual_sd_250m_s0..0cm_2014..2017_v1.0.tif,17,,0.07,
+veg_fapar_proba.v.apr_d_250m_s0..0cm_2014..2017_v1.0.tif,60,April,0.24,Median (actual)
+veg_fapar_proba.v.apr_l.025_250m_s0..0cm_2014..2017_v1.0.tif,50,April,0.20,Lower (actual)
+veg_fapar_proba.v.apr_u.975_250m_s0..0cm_2014..2017_v1.0.tif,102,April,0.40,Upper (actual)
+veg_fapar_proba.v.aug_d_250m_s0..0cm_2014..2017_v1.0.tif,14,August,0.06,Median (actual)
+veg_fapar_proba.v.aug_l.025_250m_s0..0cm_2014..2017_v1.0.tif,12,August,0.05,Lower (actual)
+veg_fapar_proba.v.aug_u.975_250m_s0..0cm_2014..2017_v1.0.tif,20,August,0.08,Upper (actual)
+veg_fapar_proba.v.dec_d_250m_s0..0cm_2014..2017_v1.0.tif,27,December,0.11,Median (actual)
+veg_fapar_proba.v.dec_l.025_250m_s0..0cm_2014..2017_v1.0.tif,24,December,0.09,Lower (actual)
+veg_fapar_proba.v.dec_u.975_250m_s0..0cm_2014..2017_v1.0.tif,48,December,0.19,Upper (actual)
+veg_fapar_proba.v.feb_d_250m_s0..0cm_2014..2017_v1.0.tif,36,February,0.14,Median (actual)
+veg_fapar_proba.v.feb_l.025_250m_s0..0cm_2014..2017_v1.0.tif,25,February,0.10,Lower (actual)
+veg_fapar_proba.v.feb_u.975_250m_s0..0cm_2014..2017_v1.0.tif,62,February,0.25,Upper (actual)
+veg_fapar_proba.v.jan_d_250m_s0..0cm_2014..2017_v1.0.tif,32,January,0.13,Median (actual)
+veg_fapar_proba.v.jan_l.025_250m_s0..0cm_2014..2017_v1.0.tif,26,January,0.10,Lower (actual)
+veg_fapar_proba.v.jan_u.975_250m_s0..0cm_2014..2017_v1.0.tif,63,January,0.25,Upper (actual)
+veg_fapar_proba.v.jul_d_250m_s0..0cm_2014..2017_v1.0.tif,13,July,0.05,Median (actual)
+veg_fapar_proba.v.jul_l.025_250m_s0..0cm_2014..2017_v1.0.tif,10,July,0.04,Lower (actual)
+veg_fapar_proba.v.jul_u.975_250m_s0..0cm_2014..2017_v1.0.tif,19,July,0.08,Upper (actual)
+veg_fapar_proba.v.jun_d_250m_s0..0cm_2014..2017_v1.0.tif,18,June,0.07,Median (actual)
+veg_fapar_proba.v.jun_l.025_250m_s0..0cm_2014..2017_v1.0.tif,11,June,0.04,Lower (actual)
+veg_fapar_proba.v.jun_u.975_250m_s0..0cm_2014..2017_v1.0.tif,40,June,0.16,Upper (actual)
+veg_fapar_proba.v.mar_d_250m_s0..0cm_2014..2017_v1.0.tif,57,March,0.23,Median (actual)
+veg_fapar_proba.v.mar_l.025_250m_s0..0cm_2014..2017_v1.0.tif,41,March,0.16,Lower (actual)
+veg_fapar_proba.v.mar_u.975_250m_s0..0cm_2014..2017_v1.0.tif,82,March,0.32,Upper (actual)
+veg_fapar_proba.v.may_d_250m_s0..0cm_2014..2017_v1.0.tif,49,May,0.19,Median (actual)
+veg_fapar_proba.v.may_l.025_250m_s0..0cm_2014..2017_v1.0.tif,25,May,0.10,Lower (actual)
+veg_fapar_proba.v.may_u.975_250m_s0..0cm_2014..2017_v1.0.tif,84,May,0.33,Upper (actual)
+veg_fapar_proba.v.nov_d_250m_s0..0cm_2014..2017_v1.0.tif,18,November,0.07,Median (actual)
+veg_fapar_proba.v.nov_l.025_250m_s0..0cm_2014..2017_v1.0.tif,12,November,0.05,Lower (actual)
+veg_fapar_proba.v.nov_u.975_250m_s0..0cm_2014..2017_v1.0.tif,54,November,0.21,Upper (actual)
+veg_fapar_proba.v.oct_d_250m_s0..0cm_2014..2017_v1.0.tif,14,October,0.06,Median (actual)
+veg_fapar_proba.v.oct_l.025_250m_s0..0cm_2014..2017_v1.0.tif,11,October,0.04,Lower (actual)
+veg_fapar_proba.v.oct_u.975_250m_s0..0cm_2014..2017_v1.0.tif,38,October,0.15,Upper (actual)
+veg_fapar_proba.v.sep_d_250m_s0..0cm_2014..2017_v1.0.tif,17,September,0.07,Median (actual)
+veg_fapar_proba.v.sep_l.025_250m_s0..0cm_2014..2017_v1.0.tif,11,September,0.04,Lower (actual)
+veg_fapar_proba.v.sep_u.975_250m_s0..0cm_2014..2017_v1.0.tif,35,September,0.14,Upper (actual)
+pnv_forest.tree.sp_eu.forest00k.abies.alba_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.abies.spp._p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.acer.campestre_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.acer.platanoides_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.acer.pseudoplatanus_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.aesculus.hippocastanum_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.ailanthus.altissima_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.alnus.cordata_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.alnus.glutinosa_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.alnus.incana_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.alnus.viridis_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.betula.spp._p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.carpinus.betulus_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.carpinus.orientalis_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.castanea.sativa_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.celtis.australis_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.cornus.mas_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.cornus.sanguinea_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.corylus.avellana_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.cupressus.sempervirens_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.euonymus.europaeus_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.fagus.sylvatica_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.frangula.alnus_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.fraxinus.angustifolia_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.fraxinus.excelsior_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.fraxinus.ornus_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.ilex.aquifolium_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.juglans.regia_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.juniperus.communis_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.juniperus.oxycedrus_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.juniperus.phoenicea_p_1km_s0..0cm_2000..2017_v0.1.tif,1,,,
+pnv_forest.tree.sp_eu.forest00k.juniperus.thurifera_p_1km_s0..0cm_2000..2017_v0.1.tif,4,,,
+pnv_forest.tree.sp_eu.forest00k.larix.decidua_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.olea.europaea_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.ostrya.carpinifolia_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.picea.abies_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.picea.omorika_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.picea.sitchensis_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.pinus.cembra_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.pinus.halepensis.and.pinus.brutia_p_1km_s0..0cm_2000..2017_v0.1.tif,70,,,
+pnv_forest.tree.sp_eu.forest00k.pinus.mugo_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.pinus.nigra_p_1km_s0..0cm_2000..2017_v0.1.tif,1,,,
+pnv_forest.tree.sp_eu.forest00k.pinus.pinaster_p_1km_s0..0cm_2000..2017_v0.1.tif,2,,,
+pnv_forest.tree.sp_eu.forest00k.pinus.pinea_p_1km_s0..0cm_2000..2017_v0.1.tif,1,,,
+pnv_forest.tree.sp_eu.forest00k.pinus.sylvestris_p_1km_s0..0cm_2000..2017_v0.1.tif,1,,,
+pnv_forest.tree.sp_eu.forest00k.populus.alba_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.populus.nigra_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.populus.tremula_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.prunus.avium_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.prunus.cerasifera_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.prunus.mahaleb_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.prunus.padus_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.prunus.spinosa_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.cerris_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.frainetto_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.ilex_p_1km_s0..0cm_2000..2017_v0.1.tif,20,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.palustris_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.pubescens_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.pyrenaica_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.robur.and.quercus.petraea_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.quercus.suber_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.robinia.pseudoacacia_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.salix.alba_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.salix.caprea_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.sambucus.nigra_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.sorbus.aria_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.sorbus.aucuparia_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.sorbus.domestica_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.sorbus.torminalis_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.tamarix.spp._p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.taxus.baccata_p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.tilia.spp._p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+pnv_forest.tree.sp_eu.forest00k.ulmus.spp._p_1km_s0..0cm_2000..2017_v0.1.tif,0,,,
+lcv_land.cover_esacci.lc.l4_c_250m_s0..0cm_2015_v1.0.tif,11,,,

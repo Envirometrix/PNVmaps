@@ -1,0 +1,91 @@
+Number,Count,NM_UVEG,New global consolidated biome scheme,Translation_NM_UVEG
+1,3873,Floresta Ombrófila Densa Aluvial,tropical evergreen broadleaf forest,Dense Alluvial Forest
+2,2422,Floresta Ombrófila Densa Submontana,tropical evergreen broadleaf forest,Dense Ombrophylous Forest Submontana
+3,1815,Floresta Ombrófila Densa das Terras Baixas,tropical evergreen broadleaf forest,Dense Ombrophilous Lowland Forest
+4,1379,Floresta Ombrófila Aberta Aluvial,tropical evergreen broadleaf forest,Open Alluvial Forest Alluvial
+5,1327,Savana Arborizada sem floresta-de-galeria,tropical savanna,Savannah Wooded without gallery forest
+6,1249,Savana Florestada,tropical savanna,Forested Savannah
+7,826,Floresta Ombrófila Aberta Submontana,tropical evergreen broadleaf forest,Open Ombrophylous Forest Submontana
+8,750,Formação Pioneira com influência fluvial e/ou lacustre herbácea,,Pioneer Formation with fluvial and / or herbaceous lake influence
+9,689,Formação Pioneira com influência fluviomarinha arbórea,,Pioneer training with fluvial tree influence
+10,688,Formação Pioneira com influência fluvial e/ou lacustre arbustiva,,Pioneer Formation with fluvial and / or shallow lake influence
+11,552,Savana Arborizada,tropical savanna,Savannah Arborizada
+12,531,Floresta Estacional Semidecidual Submontana,tropical semi-evergreen broadleaf forest,Submontane Semidecidual Seasonal Forest
+13,456,Savana Parque sem floresta-de-galeria,tropical savanna,Savannah Park without gallery forest
+14,447,Campinarana Arborizada,,Campinarana Arborizada
+15,438,Formação Pioneira com influência fluvial e/ou lacustre herbácea sem palmeiras,,Pioneer Formation with fluvial influence and / or herbaceous lacustrine without palm trees
+16,430,Savana Arborizada com floresta-de-galeria,tropical savanna,Wooded savannah with gallery forest
+17,412,Floresta Ombrófila Aberta das Terras Baixas,tropical evergreen broadleaf forest,Open Lowland Ombrophilous Forest
+18,397,Campinarana Florestada,tropical evergreen broadleaf forest,Campinarana Florestada
+19,317,Floresta Estacional Decidual Submontana,tropical deciduous broadleaf forest and woodland,Seasonal Decidual Forest Submontana
+20,289,Floresta Ombrófila Aberta Submontana com cipós,tropical evergreen broadleaf forest,Open Ombrophylous Forest Submontana with vines
+21,289,Floresta Ombrófila Densa Montana,tropical evergreen broadleaf forest,Dense Ombrophylous Forest Montana
+22,284,Savana Parque,tropical savanna,Savannah Park
+23,276,Savana Gramíneo-Lenhosa sem floresta-de-galeria,tropical savanna,Savanna Gramineous-Woody without gallery forest
+24,263,Savana-Estépica Arborizada sem palmeiras e sem floresta-de-galeria,tropical savanna,Savannah-Estépica Arborizada without palms and without forest-of-galeria
+25,242,Floresta Estacional Semidecidual Submontana com dossel emergente,tropical semi-evergreen broadleaf forest,Submontane Seasonal Semideciduous Forest with emergent canopy
+26,239,Formação Pioneira com influência fluviomarinha,,Pioneer Formation with fluviomarinha influence
+27,238,Formação Pioneira com influência fluvial e/ou lacustre arbustiva sem palmeiras,,Pioneer formation with fluvial influence and / or shrub lake without palm trees
+28,223,Savana Parque com floresta-de-galeria,tropical savanna,Savannah Park with gallery forest
+29,212,Floresta Estacional Semidecidual Aluvial,tropical semi-evergreen broadleaf forest,Seasonal Semideciduous Alluvial Forest
+30,211,Savana Gramíneo-Lenhosa com floresta-de-galeria,tropical savanna,Savanna Gramineous-Woody with gallery forest
+31,207,Savana Gramíneo-Lenhosa,tropical savanna,Gramineous-Woody Savannah
+32,206,Savana-Estépica Florestada sem palmeiras e sem floresta-de-galeria,tropical savanna,Savannah-Estépica Florestada without palms and without forest-of-gallery
+33,204,Floresta Ombrófila Densa Submontana com dossel emergente,tropical evergreen broadleaf forest,Dense Ombrophylous Forest Submontane with emergent canopy
+34,202,Floresta Estacional Semidecidual Aluvial com dossel emergente,tropical semi-evergreen broadleaf forest,Semideciduous Alluvial Seasonal Forest with emergent canopy
+35,195,Floresta Estacional Semidecidual Montana,tropical semi-evergreen broadleaf forest,Semideciduous Seasonal Forest Montana
+36,185,Afloramento Rochoso,,Rocky outcrop
+37,169,Savana-Estépica Arborizada com palmeiras,tropical savanna,Savana-Estépica Arborizada with palm trees
+38,123,Formação Pioneira com influência fluvial e/ou lacustre,,Pioneer Training with fluvial and / or lacustrine influence
+39,105,Floresta Ombrófila Densa Aluvial com dossel emergente,tropical evergreen broadleaf forest,Dense Alluvial Rain Forest with Emerging Canopy
+40,92,Savana-Estépica Parque sem palmeiras e sem floresta-de-galeria,tropical savanna,Savannah-Estépica Park without palms and without forest-gallery
+41,91,Formação Pioneira com influência marinha herbácea,,Pioneer Formation with herbaceous marine influence
+42,72,Floresta Estacional Decidual Montana,tropical deciduous broadleaf forest and woodland,Deciduous Seasonal Forest Montana
+43,71,Floresta Estacional Decidual Aluvial,tropical deciduous broadleaf forest and woodland,Seasonal Deciduous Alluvial Forest
+44,71,Savana-Estépica Parque com palmeiras,tropical savanna,Savana-Estépica Park with palm trees
+45,67,Floresta Ombrófila Aberta Submontana com palmeiras,tropical evergreen broadleaf forest,Open Ombrophylous Forest Submontana with palm trees
+46,65,Floresta Ombrófila Mista Montana,tropical evergreen broadleaf forest,Mixed Ombrophylous Forest Montana
+47,64,Duna,,Dune
+48,63,Formação Pioneira com influência fluvial e/ou lacustre palmeiral,,Pioneer Formation with fluvial and / or lacustrine palm influence
+49,63,Savana-Estépica Florestada com palmeiras,tropical savanna,Savannah-Estépica Florestada con palmeiras
+50,56,Formação Pioneira com influência marinha arbórea,,Pioneer Formation with Arboreal Marine Influence
+51,56,Savana-Estépica Florestada,tropical savanna,Florestada Savannah-Estépica
+52,48,Savana-Estépica Gramíneo-Lenhosa sem palmeiras e sem floresta-de-galeria,tropical savanna,Savannah-Smear Gramineous-Woody without palms and without forest-of-gallery
+53,47,Campinarana Arbustiva,,Campinarana Arbustiva
+54,41,Refúgio Vegetacional Montano,tropical evergreen broadleaf forest,Montano Vegetational Refuge
+55,39,Floresta Estacional Decidual Submontana com dossel emergente,tropical deciduous broadleaf forest and woodland,Submontana Decidal Seasonal Forest with emergent canopy
+56,38,Floresta Ombrófila Densa Terras Baixas,tropical evergreen broadleaf forest,Dense Ombrophylous Forest Lowlands
+57,35,Formação Pioneira com influência marinha arbustiva,,Pioneer Formation with shrub marine influence
+58,34,Campinarana Gramíneo-Lenhosa,,Campinarana Gramineo-Lenhosa
+59,31,Campinarana Florestada sem palmeiras,tropical evergreen broadleaf forest,Campinarana Florestada without palms
+60,30,Refúgio Vegetacional Montano arbustivo,,Vegetable Refuge Montane shrub
+61,24,Floresta Ombrófila Densa Alto-Montana,tropical evergreen broadleaf forest,Dense Ombrophylous Forest High-Montana
+62,23,Floresta Ombrófila Mista Alto-Montana,tropical evergreen broadleaf forest,Alto-Montana Mixed Ombrophilous Forest
+63,21,Floresta Estacional Decidual das Terras Baixas com dossel emergente,tropical deciduous broadleaf forest and woodland,Degradual Seasonal Lowland Forest with emergent canopy
+64,19,Savana-Estépica Parque com floresta-de-galeria,tropical savanna,Savannah-Estépica Park with gallery forest
+65,18,Formação Pioneira com influência marinha,,Pioneer Training with Marine Influence
+66,18,Savana-Estépica Gramíneo-Lenhosa,tropical savanna,Savanna-Sperm Grassy-Lentic
+67,17,Campinarana Florestada com palmeiras,tropical evergreen broadleaf forest,Campinarana Florestada with palm trees
+68,17,Estepe Gramíneo-Lenhosa,,Gramineous Woody Steppe
+69,17,Savana-Estépica Gramíneo-Lenhosa com floresta-de-galeria,tropical savanna,Savanna-Sperm Grassy-Woody with gallery forest
+70,16,Formação Pioneira com influência fluvial e/ou lacustre arbustiva com palmeiras,,Pioneering Formation with fluvial and / or shallow lake influence with palm trees
+71,16,Savana-Estépica Arborizada,tropical savanna,Savannah-Stemmed Woody
+72,14,Refúgio Vegetacional Montano herbáceo,,Vegetational Refuge Vegetable Montano
+73,13,Floresta Estacional Semidecidual das Terras Baixas,tropical semi-evergreen broadleaf forest,Seasonal Semideciduous Lowland Forest
+74,10,Floresta Ombrófila Aberta Montana com palmeiras,tropical evergreen broadleaf forest,Open Ombrophylous Forest Montana with Palm Trees
+75,9,Floresta Estacional Decidual das Terras Baixas,tropical deciduous broadleaf forest and woodland,Decidual Seasonal Forest of the Lowlands
+76,8,Floresta Estacional Semidecidual das Terras Baixas com dossel emergente,tropical semi-evergreen broadleaf forest,Semideciduous Seasonal Lowland Forest with Emerging Canopy
+77,8,Refúgio Vegetacional Alto-Montano herbáceo,,Vegetational High-montane herbaceous refuge
+78,7,Floresta Ombrófila Aberta das Terras Baixas com cipós,tropical evergreen broadleaf forest,Open Lowland Ombrophilous Forest with vines
+79,7,Floresta Ombrófila Aberta Submontana com sororocas,tropical evergreen broadleaf forest,Open Ombrophylous Forest Submontana with sororocas
+80,7,Savana-Estépica Parque,tropical savanna,Savannah-Esthetic Park
+81,6,Refúgio Vegetacional Submontano arbustivo,,Vegetation Refuge Submontane shrub
+82,5,Floresta Ombrófila Aberta das Terras Baixas com palmeiras,tropical evergreen broadleaf forest,Open Lowland Ombrophilous Forest with Palm Trees
+83,4,Estepe Gramíneo-Lenhosa com floresta-de-galeria,,Gramineous-Woody Steppe with gallery forest
+84,3,Refúgio Vegetacional Submontano,,Submontane Vegetational Refuge
+85,2,Floresta Estacional Decidual Montana dossel uniforme,tropical deciduous broadleaf forest and woodland,Deciduous Seasonal Forest Montana canopy uniform
+86,2,Floresta Ombrófila Mista Submontana,tropical evergreen broadleaf forest,Submontana Mixed Ombrophilous Forest
+87,2,Refúgio Vegetacional Alto-Montano arbustivo,,Vegetational Refuge Alto-Montano shrub
+88,1,Estepe Parque,,Steppe Park
+89,1,Floresta Ombrófila Aberta Submontana com bambus,tropical evergreen broadleaf forest,Open Ombrophylous Forest Submontana with bamboos
+90,1,Floresta Ombrófila Mista Aluvial,tropical evergreen broadleaf forest,Mixed Alluvial Ombrophilous Forest
