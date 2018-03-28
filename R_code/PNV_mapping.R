@@ -128,8 +128,6 @@ snowfall::sfStop()
 names(ov.biome) = basename(covs1km)
 rm.biome0 <- cbind(as.data.frame(biome_f[,c("Site.Name","Biome00k_c")]), as.data.frame(ov.biome))
 rm.biome = fix_biome(rm.biome0)
-write.csv(rm.biome, "/data/PNV/Data/Biomes/Biome00k_regression_matrix.csv")
-zip("/data/PNV/Data/Biomes/Biome00k_regression_matrix.zip", files="/data/PNV/Data/Biomes/Biome00k_regression_matrix.csv")
 
 ## Biomes RF model ----
 #summary(rm.biome)
@@ -171,6 +169,8 @@ print(t(data.frame(xl1.P[order(unlist(xl1.P), decreasing=TRUE)[1:20]])))
 # clm_precipitation_imerge.oct_m_1km_s0..0cm_1980..2017_v1.0.tif              78.14946
 saveRDS(m.biome00k, "m.biome00k.rds")
 save.image()
+write.csv(rm.biome.s, "/data/PNV/Data/Biomes/Biome00k_regression_matrix.csv")
+R.utils::gzip("/data/PNV/Data/Biomes/Biome00k_regression_matrix.csv")
 
 ## Prepare prediction data ----
 obj <- GDALinfo("/data/LandGIS/layers1km/lcv_landmask_esacci.lc.l4_c_1km_s0..0cm_2000..2015_v1.0.tif")
@@ -458,7 +458,8 @@ saveRDS(rm.fapar, "rm.fapar.rds")
 ## RF model for potential FAPAR ----
 #str(rm.fapar)
 fm.FAPAR = as.formula(paste("FAPAR ~ cMonth + ", paste0(ttn.lst, collapse="+"), "+", paste0(names(ov.rds)[-which(names(ov.rds) %in% c("FAPAR.m", "X", "Y", "row.index", "ID", "LandCover", "lcv_admin0_fao.gaul_c_1km_s0..0cm_2015_v1.0.tif", unlist(tt.lstP)))], collapse = "+")))
-m.FAPAR <- ranger::ranger(fm.FAPAR, rm.fapar[complete.cases(rm.fapar[,all.vars(fm.FAPAR)]),], importance="impurity", mtry = 29, num.trees=151, quantreg = TRUE)
+rm.fapar.s = rm.fapar[complete.cases(rm.fapar[,all.vars(fm.FAPAR)]),]
+m.FAPAR <- ranger::ranger(fm.FAPAR, rm.fapar.s, importance="impurity", mtry = 29, num.trees=151, quantreg = TRUE)
 m.FAPAR
 # Type:                             Regression 
 # Number of trees:                  151 
@@ -677,10 +678,10 @@ rm.eu.trees0 <- as.data.frame(cbind(as.data.frame(eu.trees[,c("sp","w")]), ov.eu
 rm.eu.trees = fix_biome(rm.eu.trees0, Lat="decimalLatitude")
 ## too large for a csv
 #write.csv(rm.eu.trees, "/data/PNV/Data/EU_forest/Species_regression_matrix.csv")
-saveRDS.gz(rm.eu.trees, "/data/PNV/Data/EU_forest/Species_regression_matrix.rds")
+saveRDS.gz(rm.eu.trees, "/data/PNV/Data/EU_forest/EU_forest_regression_matrix.rds")
 rm(rm.eu.trees0); gc()
 save.image()
-#rm.eu.trees = readRDS.gz("/data/PNV/Data/EU_forest/Species_regression_matrix.rds")
+#rm.eu.trees = readRDS.gz("/data/PNV/Data/EU_forest/EU_forest_regression_matrix.rds")
 
 ## EU forest RF ----
 ## Assign higher weights to the EU-Forest points
@@ -723,6 +724,9 @@ print(t(data.frame(xlF.P[order(unlist(xlF.P), decreasing=TRUE)[1:20]])))
 # clm_cloud.fraction_earthenv.modis.10_m_1km_s0..0cm_2000..2015_v1.0.tif      7981.267
 # clm_precipitation_imerge.annual_m_1km_s0..0cm_1980..2017_v1.0.tif           7939.382
 save.image()
+summary(as.factor(rm.eu.trees.s$w))
+write.csv(rm.eu.trees.s, "/data/PNV/Data/EU_forest/EU_forest_regression_matrix.csv")
+R.utils::gzip("/data/PNV/Data/EU_forest/EU_forest_regression_matrix.csv")
 
 ## EU forest CV ----
 library(caret)
@@ -886,12 +890,13 @@ ov.tf = read.csv("/data/PNV/R_code/example_altiplano_estepario_f.csv")
 ov.tf = ov.tf[!is.na(ov.tf$Type_v),]
 ov.tf = ov.tf[ov.tf$Type_v %in% c("Median","Median (actual)", "Upper", "Upper (actual)"),]
 str(format(Sys.time(), format="%B"))
+library(scales)
 library(ggplot2)
 ov.tf$com = as.character(ov.tf$Type_v) 
 ov.tf$com[ov.tf$com =="Upper"] <- "Upper (PNV)" 
 ov.tf$com[ov.tf$com =="Median"] <- "Median (PNV)" 
 ov.tf$com = as.factor(ov.tf$com) 
-ggplot(ov.tf, aes(x=as.POSIXct(paste0("01-", Month, "-20018"), format="%d-%B-%Y"), y=Percent, group=com, color = com, linetype = com)) + geom_line(size=1) + scale_color_manual(values = c("darkgoldenrod2", "darkgoldenrod2", "forestgreen","forestgreen")) + scale_linetype_manual(values = c(1,2,1,2))+ scale_x_datetime(labels = date_format("%b")) + labs(x = "Month", y = "Fraction of FAPAR")+ theme(legend.title=element_blank(), legend.position="bottom", legend.direction="horizontal")
-#ov.tf$Value = ifelse(ov.tf$Type_v=="Upper"|ov.tf$Type_v=="Upper (actual)", "Upper", "Median")
-#ov.tf$Type = ifelse(ov.tf$Type_v=="Median (actual)"|ov.tf$Type_v=="Upper (actual)", "Actual", "PNV")
-#ggplot(ov.tf, aes(x=as.POSIXct(paste0("01-", Month, "-20018"), format="%d-%B-%Y"), y=Percent, group=Type_v)) + geom_line(aes(linetype=Type, col=Value)) +  geom_point() + scale_x_datetime(labels = date_format("%b")) + labs(x = "Month", y = "Fraction of FAPAR")
+#ggplot(ov.tf, aes(x=as.POSIXct(paste0("01-", Month, "-20018"), format="%d-%B-%Y"), y=Percent, group=com, color = com, linetype = com)) + geom_line(size=1) + scale_color_manual(values = c("darkgoldenrod2", "darkgoldenrod2", "forestgreen","forestgreen")) + scale_linetype_manual(values = c(1,2,1,2))+ scale_x_datetime(labels = date_format("%b")) + labs(x = "Month", y = "Fraction of FAPAR")+ theme(legend.title=element_blank(), legend.position="bottom", legend.direction="horizontal")
+ov.tf$Value = ifelse(ov.tf$Type_v=="Upper"|ov.tf$Type_v=="Upper (actual)", "Upper", "Median")
+ov.tf$Type = ifelse(ov.tf$Type_v=="Median (actual)"|ov.tf$Type_v=="Upper (actual)", "Actual", "PNV")
+ggplot(ov.tf, aes(x=as.POSIXct(paste0("01-", Month, "-20018"), format="%d-%B-%Y"), y=Percent, group=Type_v)) + geom_line(aes(linetype=Type, col=Value)) +  geom_point() + scale_x_datetime(labels = date_format("%b")) + labs(x = "Month", y = "Fraction of FAPAR")
