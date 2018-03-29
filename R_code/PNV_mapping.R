@@ -304,7 +304,7 @@ cat(tmp.lst, sep="\n", file=out.tmp)
 system(paste0('gdalbuildvrt -input_file_list ', out.tmp, ' ', vrt.tmp))
 system(paste0('gdalwarp ', vrt.tmp, ' /data/LandGIS/predicted1km/pnv_biome.type_biome00k_sse_1km_s0..0cm_2000..2017_v0.1.tif -ot \"Byte\" -dstnodata \"255\" -co \"BIGTIFF=YES\" -multi -wm 2000 -co \"COMPRESS=DEFLATE\" -r \"near\"'))
 
-## Biomes model CV ----
+## Biome CV ----
 library(caret)
 library(doParallel)
 cl <- makeCluster(62)
@@ -354,6 +354,31 @@ cv.biome00k[["Classes"]]
 cv.biome00k$Purity
 ## accuracy = 68%
 saveRDS(cv.biome00k, file="cv.biome00k.rds")
+
+## Biome Spatial Cross-Validation ----
+## https://mlr-org.github.io/mlr/articles/tutorial/devel/handling_of_spatial_data.html
+library(mlr)
+rm.biome.s.sp = rm.biome.s[,c("Site.Name","Longitude","Latitude")]
+coordinates(rm.biome.s.sp) = ~ Longitude + Latitude
+proj4string(rm.biome.s.sp) = "+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"
+rm.biome.s.sp = spTransform(rm.biome.s.sp, CRS("+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+plot(rm.biome.s.sp)
+#rm.biome.s.sp = spTransform(rm.biome.s.sp, CRS("+proj=robin +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"))
+## coordiantes in UTM projection:
+spatial.task.biome = makeClassifTask(id = "Site.Name", data = rm.biome.s[,all.vars(biome00k.fm)], target = "Biome00k_c", coordinates = as.data.frame(rm.biome.s.sp@coords))
+spatial.task.biome
+learner.rf = makeLearner("classif.ranger", predict.type = "prob")
+library("parallelMap")
+parallelStartSocket(parallel::detectCores())
+resampling = makeResampleDesc("SpRepCV", fold = 5, reps = 5)
+cv.biome.SP = resample(learner = learner.rf, task = spatial.task.biome, resampling = resampling, measures = list(acc, wkappa))
+## Aggregated Result: acc.test.mean=0.3319514,wkappa.test.mean=0.4548447
+#mean(out$measures.test$acc); mean(out$measures.test$wkappa)
+nonspatial.task.biome = makeClassifTask(id = "Site.Name", data = rm.biome.s[,all.vars(biome00k.fm)], target = "Biome00k_c")
+resampling2 = makeResampleDesc("RepCV", fold = 5, reps = 5)
+cv.biome.SP2 = resample(learner = learner.rf, task = nonspatial.task.biome, resampling = resampling2, measures = list(acc, wkappa))
+## Aggregated Result: acc.test.mean=0.6761238,wkappa.test.mean=0.8244314
+parallelStop()
 
 ## *** 
 ## FAPAR points ----
@@ -494,6 +519,8 @@ print(t(data.frame(xl2.P[order(unlist(xl2.P), decreasing=TRUE)[1:20]])))
 # clm_bioclim.var_chelsa.17_m_1km_s0..0cm_1979..2013_v1.0.tif                  8620853
 saveRDS.gz(m.FAPAR, "m.FAPAR.rds")
 save.image()
+write.csv(rm.fapar.s, "/data/PNV/Data/FAPAR/FAPAR_regression_matrix.csv")
+R.utils::gzip("/data/PNV/Data/FAPAR/FAPAR_regression_matrix.csv")
 
 ## Upper FAPAR ----
 faparU.lst = list.files("/data/LandGIS/layers250m", pattern=glob2rx("veg_fapar_proba.v.*_u.975_250m_s0..0cm_2014..2017_v1.0.tif$"), full.names = TRUE)
