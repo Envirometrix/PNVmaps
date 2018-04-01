@@ -6,7 +6,7 @@ Summary: This repository contains R code and some outputs of spatial predictions
 
 *Please cite as:*
 
-* Hengl, T., Walsh, M.G., Sanderman, J., Wheeler, I., Harrison, S.P., Prentice, I. C., (2018?) [**Global Mapping of Potential Natural Vegetation: An Assessment of Machine Learning Algorithms for Estimating Land Potential**](https://peerj.com/thengl/). PeerJ, in review.
+* Hengl T, Walsh MG, Sanderman J, Wheeler I, Harrison SP, Prentice IC. (2018) [**Global mapping of potential natural vegetation: an assessment of Machine Learning algorithms for estimating land potential**](https://doi.org/10.7287/peerj.preprints.26811v1). PeerJ Preprints 6:e26811v1 https://doi.org/10.7287/peerj.preprints.26811v1
 
 # Download Maps
 
