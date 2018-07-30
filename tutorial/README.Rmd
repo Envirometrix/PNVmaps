@@ -78,7 +78,7 @@ m.biome00k <- ranger::ranger(biome00k.fm, rm.biome.s, importance="impurity",
 m.biome00k
 ```
 
-This shows that the average classification accuracy of this model is about 70%. Could this model be improved using some other algorithms? We can test the performance using the caret package functionality [@kuhn2013applied]:
+thus, the average classification accuracy of this model is about 70%. Could this model be improved using some other algorithms? We can test the performance using the caret package functionality [@kuhn2013applied]:
 
 ```{r, eval=FALSE, echo=FALSE}
 library(caret)
@@ -159,7 +159,7 @@ plotKML(grid1km["cool.mixed.forest"],
         colour_scale=SAGA_pal[[10]])
 ```
 
-Alternatively you can use the [KML files](http://envirometrix.synology.me:7070/geoserver/web/) pointing to the Geoserver copy of the maps, and which contains the final predictions of biomes for the whole world (see figure below).
+Alternatively you can use the [KML files](http://envirometrix.synology.me:7070/geoserver/web/) pointing to the Geoserver copy of the maps, and which contains the [final predictions of biomes for the whole world](https://www.arcgis.com/apps/MapJournal/index.html?appid=1856322400844a7cab348bccfa4bee76) (see figure below).
 
 ```{r ge-preview, echo=FALSE, fig.cap="Predicted probability of cool.mixed.forest displayed in Google Earth.", out.width="100%"}
 knitr::include_graphics("../img/ge_biome_cool_mixed_forest.jpg")

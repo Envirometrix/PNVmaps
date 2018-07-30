@@ -1,12 +1,12 @@
 # Global Maps of Potential Natural Vegetation at 1 km resolution
 
-Summary: This repository contains R code and some outputs of spatial predictions related with the production of Global Maps of Potential Natural Vegetation at 1 km resolution. Three case studies were considered: (1) global distribution of biomes based on the BIOME 6000 data set (8057 modern pollen-based site reconstructions), (2) distribution of forest tree species in Europe based on detailed occurrence records (1,546,435 ground observations), and (3) global monthly Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) values (30,301 randomly-sampled points).
+Summary: This repository contains R code and some outputs of spatial predictions related with the production of [Global Maps of Potential Natural Vegetation at 1 km resolution](https://www.arcgis.com/apps/MapJournal/index.html?appid=1856322400844a7cab348bccfa4bee76). Three case studies were considered: (1) global distribution of biomes based on the BIOME 6000 data set (8057 modern pollen-based site reconstructions), (2) distribution of forest tree species in Europe based on detailed occurrence records (1,546,435 ground observations), and (3) global monthly Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) values (30,301 randomly-sampled points).
 
 ![alt text](https://github.com/envirometrix/PNVmaps/blob/master/img/Fig_global_biomes_map.png "Output predictions for global biomes.")
 
 # Step-by-step tutorial
 
-This tutorial explains how to fit models and produce predictions for smaller area in Europe. To run this tutorial you might need to install and customize some [R / OS GIS software](https://envirometrix.github.io/PredictiveSoilMapping/software.html).
+[This tutorial](https://github.com/Envirometrix/PNVmaps/tree/master/tutorial) explains how to fit models and produce predictions for smaller area in Europe. To run this tutorial you might need to install and customize some [R / OS GIS software](https://envirometrix.github.io/PredictiveSoilMapping/software.html).
 
 *Please cite as:*
 

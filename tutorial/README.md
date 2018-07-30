@@ -370,7 +370,7 @@ m.biome00k
     ## Variable importance mode:         impurity 
     ## OOB prediction error:             0.3031399
 
-This shows that the average classification accuracy of this model is about 70%. Could this model be improved using some other algorithms? We can test the performance using the caret package functionality (Kuhn & Johnson, 2013):
+thus, the average classification accuracy of this model is about 70%. Could this model be improved using some other algorithms? We can test the performance using the caret package functionality (Kuhn & Johnson, 2013):
 
 <img src="../tex/Fig_5.png" alt="Predictive performance of the target machine learning algorithms for mapping global distribution of biomes (N=8653). ranger = random forest, kkn = K-nearest neighbors, gbm = Generalized Boosted Regression Models, nnet = Neural networks." width="55%" />
 <p class="caption">
@@ -457,7 +457,7 @@ plotKML(grid1km["cool.mixed.forest"],
         colour_scale=SAGA_pal[[10]])
 ```
 
-Alternatively you can use the [KML files](http://envirometrix.synology.me:7070/geoserver/web/) pointing to the Geoserver copy of the maps, and which contains the final predictions of biomes for the whole world (see figure below).
+Alternatively you can use the [KML files](http://envirometrix.synology.me:7070/geoserver/web/) pointing to the Geoserver copy of the maps, and which contains the [final predictions of biomes for the whole world](https://www.arcgis.com/apps/MapJournal/index.html?appid=1856322400844a7cab348bccfa4bee76) (see figure below).
 
 <img src="../img/ge_biome_cool_mixed_forest.jpg" alt="Predicted probability of cool.mixed.forest displayed in Google Earth." width="100%" />
 <p class="caption">
@@ -661,8 +661,8 @@ m.FAPAR
     ## Mtry:                             29 
     ## Target node size:                 5 
     ## Variable importance mode:         impurity 
-    ## OOB prediction error (MSE):       583.027 
-    ## R squared (OOB):                  0.9049254
+    ## OOB prediction error (MSE):       570.5866 
+    ## R squared (OOB):                  0.9064633
 
 To further detect which covariates are most important we can use:
 
@@ -672,26 +672,26 @@ print(t(data.frame(xl2.P[order(unlist(xl2.P), decreasing=TRUE)[1:20]])))
 ```
 
     ##                                                                                  [,1]
-    ## clm_precipitation_imerge.annual_m_1km_s0..0cm_1980..2017_v1.0.tif          16442718.3
-    ## clm_bioclim.var_chelsa.12_m_1km_s0..0cm_1979..2013_v1.0.tif                 8988012.1
-    ## clm_bioclim.var_chelsa.2_m_1km_s0..0cm_1979..2013_v1.0.tif                  4313608.7
-    ## clm_bioclim.var_chelsa.7_m_1km_s0..0cm_1979..2013_v1.0.tif                  4055188.9
-    ## clm_cloud.fraction_earthenv.modis.annual_m_1km_s0..0cm_2000..2015_v1.0.tif  2932584.7
-    ## precipitation                                                               2926746.2
-    ## temp_min                                                                    1971063.9
-    ## clm_bioclim.var_chelsa.4_m_1km_s0..0cm_1979..2013_v1.0.tif                  1582251.4
-    ## temp_mean                                                                   1354692.2
-    ## clm_bioclim.var_chelsa.10_m_1km_s0..0cm_1979..2013_v1.0.tif                  919341.0
-    ## temp_max                                                                     889030.4
-    ## clm_bioclim.var_chelsa.5_m_1km_s0..0cm_1979..2013_v1.0.tif                   792607.6
-    ## clm_bioclim.var_chelsa.3_m_1km_s0..0cm_1979..2013_v1.0.tif                   782999.5
-    ## water.vapor                                                                  555206.6
-    ## clm_bioclim.var_chelsa.1_m_1km_s0..0cm_1979..2013_v1.0.tif                   484258.6
-    ## clm_bioclim.var_chelsa.14_m_1km_s0..0cm_1979..2013_v1.0.tif                  473604.8
-    ## clm_bioclim.var_chelsa.16_m_1km_s0..0cm_1979..2013_v1.0.tif                  431608.1
-    ## could.fraction                                                               430364.3
-    ## dtm_elevation_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                          390780.2
-    ## clm_bioclim.var_chelsa.17_m_1km_s0..0cm_1979..2013_v1.0.tif                  379936.6
+    ## clm_precipitation_imerge.annual_m_1km_s0..0cm_1980..2017_v1.0.tif          11910598.5
+    ## clm_bioclim.var_chelsa.12_m_1km_s0..0cm_1979..2013_v1.0.tif                 7860574.5
+    ## clm_bioclim.var_chelsa.7_m_1km_s0..0cm_1979..2013_v1.0.tif                  5677582.0
+    ## clm_bioclim.var_chelsa.2_m_1km_s0..0cm_1979..2013_v1.0.tif                  4336757.3
+    ## clm_cloud.fraction_earthenv.modis.annual_m_1km_s0..0cm_2000..2015_v1.0.tif  3699100.9
+    ## clm_bioclim.var_chelsa.4_m_1km_s0..0cm_1979..2013_v1.0.tif                  3528891.7
+    ## precipitation                                                               2777588.7
+    ## clm_bioclim.var_chelsa.16_m_1km_s0..0cm_1979..2013_v1.0.tif                 2018582.3
+    ## temp_min                                                                    1953219.4
+    ## temp_mean                                                                   1417483.9
+    ## clm_bioclim.var_chelsa.5_m_1km_s0..0cm_1979..2013_v1.0.tif                   704539.0
+    ## temp_max                                                                     692452.5
+    ## clm_bioclim.var_chelsa.10_m_1km_s0..0cm_1979..2013_v1.0.tif                  683397.4
+    ## clm_bioclim.var_chelsa.6_m_1km_s0..0cm_1979..2013_v1.0.tif                   669117.0
+    ## clm_bioclim.var_chelsa.3_m_1km_s0..0cm_1979..2013_v1.0.tif                   619522.1
+    ## water.vapor                                                                  544262.9
+    ## clm_bioclim.var_chelsa.14_m_1km_s0..0cm_1979..2013_v1.0.tif                  496581.6
+    ## clm_bioclim.var_chelsa.13_m_1km_s0..0cm_1979..2013_v1.0.tif                  410671.9
+    ## clm_bioclim.var_chelsa.1_m_1km_s0..0cm_1979..2013_v1.0.tif                   405778.7
+    ## clm_bioclim.var_chelsa.17_m_1km_s0..0cm_1979..2013_v1.0.tif                  389579.6
 
 which shows that the total annual precipitation is the most important covariate explaining FAPAR.
 
