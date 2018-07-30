@@ -1,0 +1,415 @@
+\begin{thebibliography}{}
+
+\bibitem[Biau and Scornet, 2016]{Biau2016}
+Biau, G. and Scornet, E. (2016).
+\newblock A random forest guided tour.
+\newblock {\em TEST}, 25(2):197--227.
+
+\bibitem[Bigelow et~al., 2003]{bigelow2003climate}
+Bigelow, N.~H., Brubaker, L.~B., Edwards, M.~E., Harrison, S.~P., Prentice,
+  I.~C., Anderson, P.~M., Andreev, A.~A., Bartlein, P.~J., Christensen, T.~R.,
+  Cramer, W., et~al. (2003).
+\newblock Climate change and arctic ecosystems: 1. vegetation changes north of
+  55 n between the last glacial maximum, mid-holocene, and present.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 108(D19).
+
+\bibitem[Bischl et~al., 2016]{mlr2016}
+Bischl, B., Lang, M., Kotthoff, L., Schiffner, J., Richter, J., Studerus, E.,
+  Casalicchio, G., and Jones, Z.~M. (2016).
+\newblock {mlr: Machine Learning in R}.
+\newblock {\em Journal of Machine Learning Research}, 17(170):1--5.
+
+\bibitem[Bohn et~al., 2007]{bohn2007map}
+Bohn, U., Zazanashvili, N., and Nakhutsrishvili, G. (2007).
+\newblock The map of the natural vegetation of europe and its application in
+  the caucasus ecoregion.
+\newblock {\em Bulletin of the Georgian National Academy of Sciences},
+  175:112--121.
+
+\bibitem[Borda, 2011]{borda2011fundamentals}
+Borda, M. (2011).
+\newblock {\em Fundamentals in Information Theory and Coding}.
+\newblock Springer Berlin Heidelberg.
+
+\bibitem[Breiman, 2001]{breiman2001random}
+Breiman, L. (2001).
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1):5--32.
+
+\bibitem[Brenning, 2012]{Brenning2012}
+Brenning, A. (2012).
+\newblock {Spatial cross-validation and bootstrap for the assessment of
+  prediction rules in remote sensing: The R package sperrorest}.
+\newblock In {\em 2012 IEEE International Geoscience and Remote Sensing
+  Symposium}, pages 5372--5375.
+
+\bibitem[Brus et~al., 2012]{brus2012statistical}
+Brus, D., Hengeveld, G., Walvoort, D., Goedhart, P., Heidema, A., Nabuurs, G.,
+  and Gunia, K. (2012).
+\newblock Statistical mapping of tree species over europe.
+\newblock {\em European Journal of Forest Research}, 131(1):145--157.
+
+\bibitem[Carnahan, 1989]{carnahan1989australia}
+Carnahan, J. (1989).
+\newblock {\em Australia natural vegetation: Australia's vegetation in the
+  1780's}.
+\newblock Australian Surveying and Land Information Group, Dept. of
+  Administrative Services, Queensland, AU.
+
+\bibitem[Chen and Guestrin, 2016]{Chen2016}
+Chen, T. and Guestrin, C. (2016).
+\newblock {XGBoost: A Scalable Tree Boosting System}.
+\newblock In {\em Proceedings of the 22Nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '16, pages 785--794, New York,
+  NY, USA. ACM.
+
+\bibitem[Conrad et~al., 2015]{gmd-8-1991-2015}
+Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L.,
+  Wehberg, J., Wichmann, V., and B\"ohner, J. (2015).
+\newblock System for automated geoscientific analyses (saga) v. 2.1.4.
+\newblock {\em Geoscientific Model Development}, 8(7):1991--2007.
+
+\bibitem[Cutler et~al., 2007]{cutler2007random}
+Cutler, D.~R., Edwards, T.~C., Beard, K.~H., Cutler, A., Hess, K.~T., Gibson,
+  J., and Lawler, J.~J. (2007).
+\newblock Random forests for classification in ecology.
+\newblock {\em Ecology}, 88(11):2783--2792.
+
+\bibitem[Deo and {\c{S}}ahin, 2015]{deo2015application}
+Deo, R.~C. and {\c{S}}ahin, M. (2015).
+\newblock Application of the extreme learning machine algorithm for the
+  prediction of monthly effective drought index in eastern australia.
+\newblock {\em Atmospheric Research}, 153:512--525.
+
+\bibitem[Elith and Leathwick, 2009]{elith2009species}
+Elith, J. and Leathwick, J.~R. (2009).
+\newblock Species distribution models: ecological explanation and prediction
+  across space and time.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics},
+  40(1):677.
+
+\bibitem[Erb et~al., 2017]{erb2017unexpectedly}
+Erb, K.-H., Kastner, T., Plutzar, C., Bais, A. L.~S., Carvalhais, N., Fetzel,
+  T., Gingrich, S., Haberl, H., Lauk, C., Niedertscheider, M., et~al. (2017).
+\newblock Unexpectedly large impact of forest management and grazing on global
+  vegetation biomass.
+\newblock {\em Nature}.
+
+\bibitem[Escribano et~al., 2016]{10.7717/peerj.2743}
+Escribano, N., Ariño, A.~H., and Galicia, D. (2016).
+\newblock Biodiversity data obsolescence and land uses changes.
+\newblock {\em PeerJ}, 4:e2743.
+
+\bibitem[Fan et~al., 2013]{fan2013global}
+Fan, Y., Li, H., and Miguez-Macho, G. (2013).
+\newblock Global patterns of groundwater table depth.
+\newblock {\em Science}, 339(6122):940--943.
+
+\bibitem[Fluet-Chouinard et~al., 2015]{fluet2015development}
+Fluet-Chouinard, E., Lehner, B., Rebelo, L.-M., Papa, F., and Hamilton, S.~K.
+  (2015).
+\newblock Development of a global inundation map at high spatial resolution
+  from topographic downscaling of coarse-scale remote sensing data.
+\newblock {\em Remote Sensing of Environment}, 158:348--361.
+
+\bibitem[Fourcade et~al., 2018]{fourcade2018paintings}
+Fourcade, Y., Besnard, A.~G., and Secondi, J. (2018).
+\newblock Paintings predict the distribution of species, or the challenge of
+  selecting environmental predictors and evaluation statistics.
+\newblock {\em Global Ecology and Biogeography}, 27(2):245--256.
+
+\bibitem[Friedman, 2002]{friedman2002stochastic}
+Friedman, J.~H. (2002).
+\newblock Stochastic gradient boosting.
+\newblock {\em Computational Statistics \& Data Analysis}, 38(4):367--378.
+
+\bibitem[Griscom et~al., 2017]{Griscom11645}
+Griscom, B.~W., Adams, J., Ellis, P.~W., Houghton, R.~A., Lomax, G., Miteva,
+  D.~A., Schlesinger, W.~H., Shoch, D., Siikam{\"a}ki, J.~V., Smith, P.,
+  Woodbury, P., Zganjar, C., Blackman, A., Campari, J., Conant, R.~T., Delgado,
+  C., Elias, P., Gopalakrishna, T., Hamsik, M.~R., Herrero, M., Kiesecker, J.,
+  Landis, E., Laestadius, L., Leavitt, S.~M., Minnemeyer, S., Polasky, S.,
+  Potapov, P., Putz, F.~E., Sanderman, J., Silvius, M., Wollenberg, E., and
+  Fargione, J. (2017).
+\newblock Natural climate solutions.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  114(44):11645--11650.
+
+\bibitem[Hansen et~al., 2013]{hansen2013high}
+Hansen, M.~C., Potapov, P.~V., Moore, R., Hancher, M., Turubanova, S.,
+  Tyukavina, A., Thau, D., Stehman, S., Goetz, S., Loveland, T., et~al. (2013).
+\newblock High-resolution global maps of 21st-century forest cover change.
+\newblock {\em science}, 342(6160):850--853.
+
+\bibitem[Harrison et~al., 2001]{harrison2001plant}
+Harrison, S., Yu, G., Takahara, H., and Prentice, I. (2001).
+\newblock Plant diversity and palaeovegetation in east asia.
+\newblock {\em Nature}, 413:129--130.
+
+\bibitem[Harrison and Bartlein, 2012]{Harrison2012403}
+Harrison, S.~P. and Bartlein, P. (2012).
+\newblock Chapter 14 --- records from the past, lessons for the future: What
+  the palaeorecord implies about mechanisms of global change.
+\newblock In Henderson-Sellers, A. and McGuffie, K., editors, {\em The Future
+  of the World's Climate (Second Edition)}, pages 403 -- 436. Elsevier, Boston,
+  second edition edition.
+
+\bibitem[Hartmann and Moosdorf, 2012]{GGGE:GGGE2352}
+Hartmann, J. and Moosdorf, N. (2012).
+\newblock {The new global lithological map database GLiM: A representation of
+  rock properties at the Earth surface}.
+\newblock {\em Geochemistry, Geophysics, Geosystems}, 13(12):n/a--n/a.
+
+\bibitem[Hengl et~al., 2018]{peerj.preprints.26693v1}
+Hengl, T., Nussbaum, M., Wright, M.~N., and Heuvelink, G.~B. (2018).
+\newblock Random forest as a generic framework for predictive modeling of
+  spatial and spatio-temporal variables.
+\newblock {\em PeerJ Preprints}, 6:e26693v1.
+
+\bibitem[Herrick et~al., 2013]{herrick2013global}
+Herrick, J.~E., Urama, K.~C., Karl, J.~W., Boos, J., Johnson, M.-V.~V.,
+  Shepherd, K.~D., Hempel, J., Bestelmeyer, B.~T., Davies, J., Guerra, J.~L.,
+  et~al. (2013).
+\newblock The global land-potential knowledge system (landpks): Supporting
+  evidence-based, site-specific land use and management through cloud
+  computing, mobile applications, and crowdsourcing.
+\newblock {\em Journal of Soil and Water Conservation}, 68(1):5A--12A.
+
+\bibitem[Hijmans and Elith, 2018]{hijmans2016species}
+Hijmans, R.~J. and Elith, J. (2018).
+\newblock {\em Species distribution modeling with R}.
+\newblock Environmental Science and Policy, University of California.
+
+\bibitem[Karger et~al., 2017]{karger2017climatologies}
+Karger, D.~N., Conrad, O., B{\"o}hner, J., Kawohl, T., Kreft, H., Soria-Auza,
+  R.~W., Zimmermann, N.~E., Linder, H.~P., and Kessler, M. (2017).
+\newblock Climatologies at high resolution for the earth’s land surface
+  areas.
+\newblock {\em Scientific data}, 4:170122.
+
+\bibitem[Kuhn, 2008]{JSSv028i05}
+Kuhn, M. (2008).
+\newblock {Building Predictive Models in R Using the caret Package}.
+\newblock {\em Journal of Statistical Software}, 28(1):1--26.
+
+\bibitem[Kuhn and Johnson, 2013]{kuhn2013applied}
+Kuhn, M. and Johnson, K. (2013).
+\newblock {\em Applied predictive modeling}.
+\newblock Springer.
+
+\bibitem[Kuhn et~al., 2014]{kuhn2014cubist}
+Kuhn, M., Weston, S., Keefer, C., Coulter, N., and Quinlan, R. (2014).
+\newblock {\em Cubist: rule-and instance-based regression modeling}.
+\newblock R package version 0.0.
+
+\bibitem[Lary et~al., 2016]{LARY20163}
+Lary, D.~J., Alavi, A.~H., Gandomi, A.~H., and Walker, A.~L. (2016).
+\newblock Machine learning in geosciences and remote sensing.
+\newblock {\em Geoscience Frontiers}, 7(1):3 -- 10.
+\newblock Special Issue: Progress of Machine Learning in Geosciences.
+
+\bibitem[Leong and Roderick, 2015]{leong2015remote}
+Leong, M. and Roderick, G.~K. (2015).
+\newblock Remote sensing captures varying temporal patterns of vegetation
+  between human-altered and natural landscapes.
+\newblock {\em PeerJ}, 3:e1141.
+
+\bibitem[Levavasseur et~al., 2012]{levavasseur2012statistical}
+Levavasseur, G., Vrac, M., Roche, D., and Paillard, D. (2012).
+\newblock Statistical modelling of a new global potential vegetation
+  distribution.
+\newblock {\em Environmental Research Letters}, 7(4):044019.
+
+\bibitem[Li et~al., 2016]{li2016comparison}
+Li, X., Chen, W., Cheng, X., and Wang, L. (2016).
+\newblock A comparison of machine learning algorithms for mapping of complex
+  surface-mined and agricultural landscapes using ziyuan-3 stereo satellite
+  imagery.
+\newblock {\em Remote sensing}, 8(6):514.
+
+\bibitem[Marchant et~al., 2009]{marchant2009pollen}
+Marchant, R., Cleef, A., Harrison, S., Hooghiemstra, H., Markgraf, V.,
+  Van~Boxel, J., Ager, T., Almeida, L., Anderson, R., Baied, C., et~al. (2009).
+\newblock Pollen-based biome reconstructions for latin america at 0, 6000 and
+  18 000 radiocarbon years ago.
+\newblock {\em Climate of the Past}, 5:725--767.
+
+\bibitem[Marinova et~al., 2017]{marinova2017pollen}
+Marinova, E., Harrison, S.~P., Bragg, F., Connor, S., Laet, V., Leroy, S.~A.,
+  Mudie, P., Atanassova, J., Bozilova, E., Caner, H., et~al. (2017).
+\newblock Pollen-derived biomes in the eastern mediterranean--black
+  sea--caspian-corridor.
+\newblock {\em Journal of Biogeography}.
+
+\bibitem[Mauri et~al., 2017]{mauri2017eu}
+Mauri, A., Strona, G., and San-Miguel-Ayanz, J. (2017).
+\newblock {EU-Forest, a high-resolution tree occurrence dataset for Europe}.
+\newblock {\em Scientific data}, 4:160123.
+
+\bibitem[Mauser et~al., 2015]{mauser2015global}
+Mauser, W., Klepper, G., Zabel, F., Delzeit, R., Hank, T., Putzenlechner, B.,
+  and Calzadilla, A. (2015).
+\newblock Global biomass production potentials exceed expected future demand
+  without the need for cropland expansion.
+\newblock {\em Nature communications}, 6:8946.
+
+\bibitem[Meinshausen, 2006]{meinshausen2006quantile}
+Meinshausen, N. (2006).
+\newblock Quantile regression forests.
+\newblock {\em Journal of Machine Learning Research}, 7(Jun):983--999.
+
+\bibitem[Meyer et~al., 2016]{Meyer2016EL}
+Meyer, C., Weigelt, P., and Kreft, H. (2016).
+\newblock Multidimensional biases, gaps and uncertainties in global plant
+  occurrence information.
+\newblock {\em Ecology Letters}, 19(8):992--1006.
+
+\bibitem[Michailidis, 2017]{michailidis2017investigating}
+Michailidis, M. (2017).
+\newblock {\em Investigating machine learning methods in recommender systems}.
+\newblock PhD thesis, UCL (University College London).
+
+\bibitem[Mitchell and Developers, 2014]{mitchell2014geospatial}
+Mitchell, T. and Developers, G. (2014).
+\newblock {\em {Geospatial Power Tools: GDAL Raster \& Vector Commands}}.
+\newblock Locate Press.
+
+\bibitem[Molotoks et~al., 2017]{land6040067}
+Molotoks, A., Kuhnert, M., Dawson, T.~P., and Smith, P. (2017).
+\newblock {Global Hotspots of Conflict Risk between Food Security and
+  Biodiversity Conservation}.
+\newblock {\em Land}, 6(4).
+
+\bibitem[Newbold et~al., 2016]{newbold2016has}
+Newbold, T., Hudson, L.~N., Arnell, A.~P., Contu, S., De~Palma, A., Ferrier,
+  S., Hill, S.~L., Hoskins, A.~J., Lysenko, I., Phillips, H.~R., et~al. (2016).
+\newblock Has land use pushed terrestrial biodiversity beyond the planetary
+  boundary? a global assessment.
+\newblock {\em Science}, 353(6296):288--291.
+
+\bibitem[Omernik, 1987]{omernik1987ecoregions}
+Omernik, J.~M. (1987).
+\newblock Ecoregions of the conterminous united states.
+\newblock {\em Annals of the Association of American geographers},
+  77(1):118--125.
+
+\bibitem[{\O}stbye~Hemsing and Bryn, 2012]{OstbyeHemsing2012}
+{\O}stbye~Hemsing, L. and Bryn, A. (2012).
+\newblock Three methods for modelling potential natural vegetation (pnv)
+  compared: A methodological case study from south-central norway.
+\newblock {\em Norsk Geografisk Tidsskrift --- Norwegian Journal of Geography},
+  66(1):11--29.
+
+\bibitem[Pekel et~al., 2016]{pekel2016high}
+Pekel, J.-F., Cottam, A., Gorelick, N., and Belward, A.~S. (2016).
+\newblock High-resolution mapping of global surface water and its long-term
+  changes.
+\newblock {\em Nature}.
+
+\bibitem[Pickett et~al., 2004]{pickett2004pollen}
+Pickett, E.~J., Harrison, S.~P., Hope, G., Harle, K., Dodson, J.~R.,
+  Peter~Kershaw, A., Colin~Prentice, I., Backhouse, J., Colhoun, E.~A.,
+  D'Costa, D., et~al. (2004).
+\newblock Pollen-based reconstructions of biome distributions for australia,
+  southeast asia and the pacific (seapac region) at 0, 6000 and 18,000 14c yr
+  bp.
+\newblock {\em Journal of Biogeography}, 31(9):1381--1444.
+
+\bibitem[Potapov et~al., 2011]{Potapov2011}
+Potapov, P., Laestadius, L., and Minnemeyer, S. (2011).
+\newblock {\em {Global Map of Potential Forest Cover}}.
+\newblock World Resources Institute.
+
+\bibitem[Potapov et~al., 2008]{potapov2008mapping}
+Potapov, P., Yaroshenko, A., Turubanova, S., Dubinin, M., Laestadius, L.,
+  Thies, C., Aksenov, D., Egorov, A., Yesipova, Y., Glushkov, I., et~al.
+  (2008).
+\newblock Mapping the world’s intact forest landscapes by remote sensing.
+\newblock {\em Ecology and Society}, 13(2).
+
+\bibitem[Prentice and Jolly, 2000]{prentice2000mid}
+Prentice, I.~C. and Jolly, D. (2000).
+\newblock Mid-holocene and glacial-maximum vegetation geography of the northern
+  continents and africa.
+\newblock {\em Journal of Biogeography}, 27(3):507--519.
+
+\bibitem[Ridgeway, 2017]{ridgeway2010gbm}
+Ridgeway, G. (2017).
+\newblock {\em gbm: generalized boosted regression models}.
+\newblock R~package version~1.6-3.1.
+
+\bibitem[Ripley and Venables, 2017]{Ripley2017nnet}
+Ripley, B. and Venables, W. (2017).
+\newblock {\em {nnet: Feed-Forward Neural Networks and Multinomial Log-Linear
+  Models}}.
+\newblock R~package version~7.3-12.
+
+\bibitem[San-Miguel-Ayanz et~al., 2016]{san2016european}
+San-Miguel-Ayanz, J., {de Rigo}, D., Caudullo, G., Houston~Durrant, T., and
+  Mauri, A. (2016).
+\newblock {\em {European Atlas of forest tree species}}.
+\newblock European Commission, Joint Research Centre.
+
+\bibitem[Shannon, 1949]{shannon1949communication}
+Shannon, C.~E. (1949).
+\newblock Communication in the presence of noise.
+\newblock {\em Proceedings of the IRE}, 37(1):10--21.
+
+\bibitem[Simard et~al., 2011]{Simard2011}
+Simard, M., Pinto, N., Fisher, J.~B., and Baccini, A. (2011).
+\newblock Mapping forest canopy height globally with spaceborne lidar.
+\newblock {\em Journal of Geophysical Research: Biogeosciences}, 116(G4):NA.
+
+\bibitem[Sing et~al., 2005]{sing2005rocr}
+Sing, T., Sander, O., Beerenwinkel, N., and Lengauer, T. (2005).
+\newblock {ROCR: visualizing classifier performance in R}.
+\newblock {\em Bioinformatics}, 21(20):3940--3941.
+
+\bibitem[Sing et~al., 2016]{ROCR}
+Sing, T., Sander, O., Beerenwinkel, N., and Lengauer, T. (2016).
+\newblock {\em \textsf{ROCR}: Visualizing the Performance of Scoring
+  Classifiers}.
+\newblock R~package version~1.0.7.
+
+\bibitem[Tian et~al., 2016]{tian2016terrestrial}
+Tian, H., Lu, C., Ciais, P., Michalak, A.~M., Canadell, J.~G., Saikawa, E.,
+  Huntzinger, D.~N., Gurney, K.~R., Sitch, S., Zhang, B., et~al. (2016).
+\newblock The terrestrial biosphere as a net source of greenhouse gases to the
+  atmosphere.
+\newblock {\em Nature}, 531(7593):225--228.
+
+\bibitem[Veloso et~al., 1992]{veloso1992manual}
+Veloso, H.~P., Oliveira-Filho, L., Vaz, A., Lima, M., Marquete, R., and Brazao,
+  J. (1992).
+\newblock Manual t{\'e}cnico da vegeta{\c{c}}{\~a}o brasileira.
+
+\bibitem[Venables and Ripley, 2002]{Venables2002Springer}
+Venables, W.~N. and Ripley, B.~D. (2002).
+\newblock {\em {Modern applied statistics with S}}.
+\newblock Springer-Verlag, New York, 4th edition.
+
+\bibitem[Weisman, 2008]{weisman2008world}
+Weisman, A. (2008).
+\newblock {\em The world without us}.
+\newblock Macmillan.
+
+\bibitem[Wilson and Jetz, 2016]{WilsonJetz2016}
+Wilson, A.~M. and Jetz, W. (2016).
+\newblock Remotely sensed high-resolution global cloud dynamics for predicting
+  ecosystem and biodiversity distributions.
+\newblock {\em PLOS Biology}, 14(3):1--20.
+
+\bibitem[{Wright} and {Ziegler}, 2016]{Wright2016}
+{Wright}, M.~N. and {Ziegler}, A. (2016).
+\newblock {ranger: A Fast Implementation of Random Forests for High Dimensional
+  Data in C++ and R}.
+\newblock {\em Journal of Statistical Software}, page~18.
+
+\bibitem[Yesson et~al., 2007]{Yesson2007PLOS}
+Yesson, C., Brewer, P.~W., Sutton, T., Caithness, N., Pahwa, J.~S., Burgess,
+  M., Gray, W.~A., White, R.~J., Jones, A.~C., Bisby, F.~A., and Culham, A.
+  (2007).
+\newblock {How Global Is the Global Biodiversity Information Facility?}
+\newblock {\em PLoS ONE}, 2(11):e1124.
+
+\end{thebibliography}

@@ -4,9 +4,13 @@ Summary: This repository contains R code and some outputs of spatial predictions
 
 ![alt text](https://github.com/envirometrix/PNVmaps/blob/master/img/Fig_global_biomes_map.png "Output predictions for global biomes.")
 
+# Step-by-step tutorial
+
+This tutorial explains how to fit models and produce predictions for smaller area in Europe. To run this tutorial you might need to install and customize some [R / OS GIS software](https://envirometrix.github.io/PredictiveSoilMapping/software.html).
+
 *Please cite as:*
 
-* Hengl T, Walsh MG, Sanderman J, Wheeler I, Harrison SP, Prentice IC. (2018) [**Global mapping of potential natural vegetation: an assessment of Machine Learning algorithms for estimating land potential**](https://doi.org/10.7287/peerj.preprints.26811v1). PeerJ Preprints 6:e26811v1 https://doi.org/10.7287/peerj.preprints.26811v1
+* Hengl T, Walsh MG, Sanderman J, Wheeler I, Harrison SP, Prentice IC. (2018) [**Global mapping of potential natural vegetation: an assessment of Machine Learning algorithms for estimating land potential**](https://doi.org/10.7287/peerj.preprints.26811v2). PeerJ Preprints 6:e26811v2 https://doi.org/10.7287/peerj.preprints.26811v2 (accepted for publication)
 
 # Download Maps
 

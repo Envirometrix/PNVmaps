@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <LookAt>
+            <longitude>180.0</longitude>
+            <latitude>12.68666666666671</latitude>
+            <altitude>1.5208681114454603E7</altitude>
+            <heading>0.0</heading>
+            <tilt>0.0</tilt>
+            <range>1.228941206120704E7</range>
+            <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <NetworkLink>
+            <name>PNV biomes at 1 km resolution</name>
+            <visibility>1</visibility>
+            <open>1</open>
+            <description>Potential Natural Vegetation biomes global predictions of classes (based on the BIOMES 6000 data set). For more information see: Hengl T, Walsh MG, Sanderman J, Wheeler I, Harrison SP, Prentice IC. (2018) Global mapping of potential natural vegetation: an assessment of Machine Learning algorithms for estimating land potential. PeerJ Preprints 6:e26811v1 https://doi.org/10.7287/peerj.preprints.26811v1</description>
+            <LookAt>
+                <longitude>-0.051054164983170836</longitude>
+                <latitude>-12.710931325438224</latitude>
+                <altitude>1381869.6121107554</altitude>
+                <heading>0.0</heading>
+                <tilt>0.0</tilt>
+                <range>1116623.127954801</range>
+                <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Url>
+                <href>http://envirometrix.synology.me:7070/geoserver/PNV/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=PNV:biomes&amp;styles=pnv_biome.type_biome00k_c&amp;height=2048&amp;width=2048&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:false;KMSCORE:40;MODE:refresh;SUPEROVERLAY:false</href>
+                <refreshInterval>0.0</refreshInterval>
+                <viewRefreshMode>onStop</viewRefreshMode>
+                <viewRefreshTime>1.0</viewRefreshTime>
+                <viewBoundScale>1.0</viewBoundScale>
+            </Url>
+        </NetworkLink>
+    </Document>
+</kml>

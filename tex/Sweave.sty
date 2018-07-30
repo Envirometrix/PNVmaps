@@ -1,0 +1,34 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Sweave}{}
+
+\RequirePackage{ifthen}
+\newboolean{Sweave@gin}
+\setboolean{Sweave@gin}{true}
+\newboolean{Sweave@ae}
+\setboolean{Sweave@ae}{true}
+
+\DeclareOption{nogin}{\setboolean{Sweave@gin}{false}}
+\DeclareOption{noae}{\setboolean{Sweave@ae}{false}}
+\ProcessOptions
+
+\RequirePackage{listings,graphicx,fancyvrb}
+\IfFileExists{upquote.sty}{\RequirePackage{upquote}}{}
+
+\ifthenelse{\boolean{Sweave@gin}}{\setkeys{Gin}{width=0.8\textwidth}}{}%
+\ifthenelse{\boolean{Sweave@ae}}{%
+  \RequirePackage[T1]{fontenc}
+  \RequirePackage{ae}
+}{}%
+\RequirePackage{fancyvrb}
+\DefineVerbatimEnvironment{Sinput}{Verbatim}{fontshape=sl, fontsize=\footnotesize, commandchars=???} % numbers=left, numbersep=5pt,
+% frame=single, framerule=.4pt, rulecolor=\color{black}, fillcolor=\color{light-gray}, fontfamily=courier, fontsize=\footnotesize,
+\DefineVerbatimEnvironment{Soutput}{Verbatim}{xleftmargin=3mm, fontsize=\footnotesize, commandchars=???}
+\DefineVerbatimEnvironment{Scode}{Verbatim}{fontshape=sl, fontsize=\footnotesize}
+
+\newenvironment{Schunk}{}{}
+
+\newcommand{\Sconcordance}[1]{%
+  \ifx\pdfoutput\undefined%
+  \csname newcount\endcsname\pdfoutput\fi%
+  \ifcase\pdfoutput\special{#1}%
+  \else\immediate\pdfobj{#1}\fi}
