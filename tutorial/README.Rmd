@@ -240,7 +240,7 @@ To generate predictions per month we can use a previously prepared function:
 pred_FAPAR(i="T9998", gm=m.FAPAR, tile.tbl=tile.tbl)
 ```
 
-which on the gives 12 months of predicted FAPAR, which we can visualize as a time series:
+which on the end gives 12 maps (months of predicted FAPAR), which we can visualize as a time series:
 
 ```{r plot-FAPAR-months, fig.width=9, fig.cap="Predicted values for FAPAR (median value) for 12 months."}
 grid1km.F <- list.files("../tiled/T9998", 

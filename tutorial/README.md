@@ -33,7 +33,7 @@ We use a number of packages that range from packages for spatial data to machine
 list.of.packages <- c("plyr", "parallel", "plotKML", "GSIF", "ranger", "raster", 
                       "rgdal", "htmlwidgets", "leaflet", "gbm", "nnet", "glmnet", 
                       "doParallel", "dismo", "caret", "devtools", "ggplot2", 
-                      "Hmisc", "compositions", "factoextra")
+                      "Hmisc", "compositions", "factoextra", "mlr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages, dependencies = TRUE)
 ```
@@ -661,8 +661,8 @@ m.FAPAR
     ## Mtry:                             29 
     ## Target node size:                 5 
     ## Variable importance mode:         impurity 
-    ## OOB prediction error (MSE):       570.5866 
-    ## R squared (OOB):                  0.9064633
+    ## OOB prediction error (MSE):       587.8109 
+    ## R squared (OOB):                  0.9025273
 
 To further detect which covariates are most important we can use:
 
@@ -672,26 +672,26 @@ print(t(data.frame(xl2.P[order(unlist(xl2.P), decreasing=TRUE)[1:20]])))
 ```
 
     ##                                                                                  [,1]
-    ## clm_precipitation_imerge.annual_m_1km_s0..0cm_1980..2017_v1.0.tif          11910598.5
-    ## clm_bioclim.var_chelsa.12_m_1km_s0..0cm_1979..2013_v1.0.tif                 7860574.5
-    ## clm_bioclim.var_chelsa.7_m_1km_s0..0cm_1979..2013_v1.0.tif                  5677582.0
-    ## clm_bioclim.var_chelsa.2_m_1km_s0..0cm_1979..2013_v1.0.tif                  4336757.3
-    ## clm_cloud.fraction_earthenv.modis.annual_m_1km_s0..0cm_2000..2015_v1.0.tif  3699100.9
-    ## clm_bioclim.var_chelsa.4_m_1km_s0..0cm_1979..2013_v1.0.tif                  3528891.7
-    ## precipitation                                                               2777588.7
-    ## clm_bioclim.var_chelsa.16_m_1km_s0..0cm_1979..2013_v1.0.tif                 2018582.3
-    ## temp_min                                                                    1953219.4
-    ## temp_mean                                                                   1417483.9
-    ## clm_bioclim.var_chelsa.5_m_1km_s0..0cm_1979..2013_v1.0.tif                   704539.0
-    ## temp_max                                                                     692452.5
-    ## clm_bioclim.var_chelsa.10_m_1km_s0..0cm_1979..2013_v1.0.tif                  683397.4
-    ## clm_bioclim.var_chelsa.6_m_1km_s0..0cm_1979..2013_v1.0.tif                   669117.0
-    ## clm_bioclim.var_chelsa.3_m_1km_s0..0cm_1979..2013_v1.0.tif                   619522.1
-    ## water.vapor                                                                  544262.9
-    ## clm_bioclim.var_chelsa.14_m_1km_s0..0cm_1979..2013_v1.0.tif                  496581.6
-    ## clm_bioclim.var_chelsa.13_m_1km_s0..0cm_1979..2013_v1.0.tif                  410671.9
-    ## clm_bioclim.var_chelsa.1_m_1km_s0..0cm_1979..2013_v1.0.tif                   405778.7
-    ## clm_bioclim.var_chelsa.17_m_1km_s0..0cm_1979..2013_v1.0.tif                  389579.6
+    ## clm_precipitation_imerge.annual_m_1km_s0..0cm_1980..2017_v1.0.tif          14853588.3
+    ## clm_bioclim.var_chelsa.12_m_1km_s0..0cm_1979..2013_v1.0.tif                 7343264.0
+    ## clm_bioclim.var_chelsa.2_m_1km_s0..0cm_1979..2013_v1.0.tif                  4213157.9
+    ## clm_bioclim.var_chelsa.4_m_1km_s0..0cm_1979..2013_v1.0.tif                  3460860.3
+    ## clm_cloud.fraction_earthenv.modis.annual_m_1km_s0..0cm_2000..2015_v1.0.tif  3316886.1
+    ## precipitation                                                               3035713.6
+    ## clm_bioclim.var_chelsa.7_m_1km_s0..0cm_1979..2013_v1.0.tif                  2947052.5
+    ## temp_min                                                                    1736315.2
+    ## temp_mean                                                                   1517199.8
+    ## clm_bioclim.var_chelsa.16_m_1km_s0..0cm_1979..2013_v1.0.tif                 1147921.2
+    ## clm_bioclim.var_chelsa.13_m_1km_s0..0cm_1979..2013_v1.0.tif                 1080151.7
+    ## clm_bioclim.var_chelsa.3_m_1km_s0..0cm_1979..2013_v1.0.tif                  1050285.6
+    ## temp_max                                                                     855250.8
+    ## clm_bioclim.var_chelsa.10_m_1km_s0..0cm_1979..2013_v1.0.tif                  739379.9
+    ## clm_bioclim.var_chelsa.5_m_1km_s0..0cm_1979..2013_v1.0.tif                   644530.5
+    ## water.vapor                                                                  578873.0
+    ## clm_bioclim.var_chelsa.14_m_1km_s0..0cm_1979..2013_v1.0.tif                  519654.3
+    ## clm_bioclim.var_chelsa.17_m_1km_s0..0cm_1979..2013_v1.0.tif                  480293.8
+    ## clm_bioclim.var_chelsa.1_m_1km_s0..0cm_1979..2013_v1.0.tif                   407833.6
+    ## dtm_elevation_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                          368693.2
 
 which shows that the total annual precipitation is the most important covariate explaining FAPAR.
 
@@ -701,7 +701,7 @@ To generate predictions per month we can use a previously prepared function:
 pred_FAPAR(i="T9998", gm=m.FAPAR, tile.tbl=tile.tbl)
 ```
 
-which on the gives 12 months of predicted FAPAR, which we can visualize as a time series:
+which on the end gives 12 maps (months of predicted FAPAR), which we can visualize as a time series:
 
 ``` r
 grid1km.F <- list.files("../tiled/T9998", 
