@@ -1,0 +1,141 @@
+Ranger result
+
+Call:
+ ranger::ranger(formulaString.biome0, rm.biome, importance = "impurity",      probability = TRUE, num.trees = 85, mtry = res$x$mtry) 
+
+Type:                             Probability estimation 
+Number of trees:                  85 
+Sample size:                      7658 
+Number of independent variables:  156 
+Mtry:                             75 
+Target node size:                 10 
+Variable importance mode:         impurity 
+Splitrule:                        gini 
+OOB prediction error (Brier s.):  0.3095476
+
+Variable importance (impurity):
+clm_precipitation_sm2rain.may_m_1km_s0..0cm_2007..2018_v0.2.tif            267.78061
+clm_monthly.temp_worldclim.chelsa.feb_u.99_1km_s0..0cm_1979..2013_v1.0.tif 199.06684
+clm_monthly.temp_worldclim.chelsa.dec_u.99_1km_s0..0cm_1979..2013_v1.0.tif 176.32663
+clm_precipitation_sm2rain.annual_m_1km_s0..0cm_2007..2018_v0.2.tif         159.17973
+clm_diffuse.irradiation_solar.atlas.kwhm2.100_m_1km_s0..0cm_2016_v1.tif    150.86225
+clm_monthly.temp_worldclim.chelsa.jan_u.99_1km_s0..0cm_1979..2013_v1.0.tif 136.70924
+clm_bioclim.var_chelsa.2_m_1km_s0..0cm_1979..2013_v1.0.tif                 136.41685
+clm_water.vapor_nasa.eo.nov_m_1km_s0..0cm_2000..2017_v1.0.tif              112.57023
+clm_bioclim.var_chelsa.3_m_1km_s0..0cm_1979..2013_v1.0.tif                 101.02893
+clm_monthly.temp_worldclim.chelsa.aug_u.99_1km_s0..0cm_1979..2013_v1.0.tif  93.40722
+clm_monthly.temp_worldclim.chelsa.mar_m_1km_s0..0cm_1979..2013_v1.0.tif     89.71314
+clm_precipitation_sm2rain.apr_m_1km_s0..0cm_2007..2018_v0.2.tif             88.34683
+clm_precipitation_sm2rain.oct_m_1km_s0..0cm_2007..2018_v0.2.tif             86.80313
+clm_monthly.temp_worldclim.chelsa.feb_m_1km_s0..0cm_1979..2013_v1.0.tif     80.01145
+clm_precipitation_sm2rain.may_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        79.08515
+clm_bioclim.var_chelsa.12_m_1km_s0..0cm_1979..2013_v1.0.tif                 77.83121
+clm_cloud.fraction_earthenv.modis.sep_p_1km_s0..0cm_2000..2015_v1.0.tif     77.11545
+clm_water.vapor_nasa.eo.sep_m_1km_s0..0cm_2000..2017_v1.0.tif               74.18260
+clm_monthly.temp_worldclim.chelsa.mar_u.99_1km_s0..0cm_1979..2013_v1.0.tif  70.23661
+clm_bioclim.var_chelsa.4_m_1km_s0..0cm_1979..2013_v1.0.tif                  68.57265
+clm_water.vapor_nasa.eo.jul_m_1km_s0..0cm_2000..2017_v1.0.tif               67.11633
+clm_bioclim.var_chelsa.11_m_1km_s0..0cm_1979..2013_v1.0.tif                 64.48448
+clm_water.vapor_nasa.eo.mar_m_1km_s0..0cm_2000..2017_v1.0.tif               62.10865
+clm_bioclim.var_chelsa.16_m_1km_s0..0cm_1979..2013_v1.0.tif                 61.91417
+clm_precipitation_sm2rain.jun_m_1km_s0..0cm_2007..2018_v0.2.tif             60.30458
+clm_monthly.temp_worldclim.chelsa.sep_u.99_1km_s0..0cm_1979..2013_v1.0.tif  59.09323
+dtm_vbf_merit.dem_m_2km_s0..0cm_2017_v1.0.tif                               57.75256
+clm_water.vapor_nasa.eo.jun_m_1km_s0..0cm_2000..2017_v1.0.tif               56.01891
+clm_cloud.fraction_earthenv.modis.nov_p_1km_s0..0cm_2000..2015_v1.0.tif     54.44718
+clm_cloud.fraction_earthenv.modis.jul_p_1km_s0..0cm_2000..2015_v1.0.tif     53.39247
+clm_water.vapor_nasa.eo.may_m_1km_s0..0cm_2000..2017_v1.0.tif               50.17904
+clm_water.vapor_nasa.eo.dec_m_1km_s0..0cm_2000..2017_v1.0.tif               48.44831
+clm_cloud.fraction_earthenv.modis.apr_p_1km_s0..0cm_2000..2015_v1.0.tif     48.24468
+clm_cloud.fraction_earthenv.modis.oct_p_1km_s0..0cm_2000..2015_v1.0.tif     48.22986
+clm_precipitation_sm2rain.aug_m_1km_s0..0cm_2007..2018_v0.2.tif             47.85846
+clm_bioclim.var_chelsa.7_m_1km_s0..0cm_1979..2013_v1.0.tif                  47.77165
+clm_wind.speed_terraclimate.feb_m_5km_s0..0cm_1998..2018_v1.tif             47.28224
+clm_cloud.fraction_earthenv.modis.dec_p_1km_s0..0cm_2000..2015_v1.0.tif     46.88725
+clm_monthly.temp_worldclim.chelsa.jul_u.99_1km_s0..0cm_1979..2013_v1.0.tif  46.74718
+clm_water.vapor_nasa.eo.jan_m_1km_s0..0cm_2000..2017_v1.0.tif               44.98330
+clm_precipitation_sm2rain.nov_m_1km_s0..0cm_2007..2018_v0.2.tif             44.53211
+clm_water.vapor_nasa.eo.aug_m_1km_s0..0cm_2000..2017_v1.0.tif               42.98487
+clm_cloud.fraction_earthenv.modis.mar_p_1km_s0..0cm_2000..2015_v1.0.tif     42.55685
+clm_precipitation_sm2rain.aug_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        42.12126
+clm_precipitation_sm2rain.jun_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        41.69342
+clm_cloud.fraction_earthenv.modis.aug_p_1km_s0..0cm_2000..2015_v1.0.tif     39.49394
+clm_precipitation_sm2rain.jul_m_1km_s0..0cm_2007..2018_v0.2.tif             39.22582
+clm_bioclim.var_chelsa.5_m_1km_s0..0cm_1979..2013_v1.0.tif                  39.18666
+clm_precipitation_sm2rain.sep_m_1km_s0..0cm_2007..2018_v0.2.tif             38.80264
+clm_monthly.temp_worldclim.chelsa.jun_u.99_1km_s0..0cm_1979..2013_v1.0.tif  38.59518
+clm_precipitation_sm2rain.jan_m_1km_s0..0cm_2007..2018_v0.2.tif             38.28350
+clm_precipitation_sm2rain.mar_m_1km_s0..0cm_2007..2018_v0.2.tif             37.83770
+clm_monthly.temp_worldclim.chelsa.jul_l.01_1km_s0..0cm_1979..2013_v1.0.tif  37.67683
+dtm_aspect.sine_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                      37.55283
+dtm_vbf_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                               36.91614
+clm_wind.speed_terraclimate.mar_m_5km_s0..0cm_1998..2018_v1.tif             36.76125
+dtm_dvm2_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                              36.46904
+clm_precipitation_sm2rain.apr_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        36.02032
+clm_precipitation_sm2rain.sep_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        35.64183
+clm_wind.speed_terraclimate.apr_m_5km_s0..0cm_1998..2018_v1.tif             35.49209
+clm_cloud.fraction_earthenv.modis.jun_p_1km_s0..0cm_2000..2015_v1.0.tif     34.84867
+clm_cloud.fraction_earthenv.modis.may_p_1km_s0..0cm_2000..2015_v1.0.tif     34.84225
+clm_monthly.temp_worldclim.chelsa.nov_u.99_1km_s0..0cm_1979..2013_v1.0.tif  34.40853
+clm_snow.prob_esacci.nov_p_1km_s0..0cm_2000..2016_v1.0.tif                  33.98641
+clm_wind.speed_terraclimate.jan_m_5km_s0..0cm_1998..2018_v1.tif             33.51198
+clm_wind.speed_terraclimate.may_m_5km_s0..0cm_1998..2018_v1.tif             33.49541
+clm_wind.speed_terraclimate.dec_m_5km_s0..0cm_1998..2018_v1.tif             33.17026
+clm_precipitation_sm2rain.dec_m_1km_s0..0cm_2007..2018_v0.2.tif             32.72507
+clm_monthly.temp_worldclim.chelsa.aug_m_1km_s0..0cm_1979..2013_v1.0.tif     32.53711
+clm_precipitation_sm2rain.jul_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        32.32235
+clm_precipitation_sm2rain.oct_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        32.22795
+dtm_convergence_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                      31.98502
+dtm_twi_merit.dem_m_2km_s0..0cm_2017_v1.0.tif                               31.19048
+clm_cloud.fraction_earthenv.modis.annual_m_1km_s0..0cm_2000..2015_v1.0.tif  31.05550
+clm_monthly.temp_worldclim.chelsa.apr_u.99_1km_s0..0cm_1979..2013_v1.0.tif  30.44229
+dtm_vbf_merit.dem_m_250m_s0..0cm_2017_v1.0.tif                              29.78934
+dtm_northness_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                        29.62374
+clm_precipitation_sm2rain.feb_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        29.47107
+dtm_easthness_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                        29.37242
+dtm_dvm_merit.dem_m_2km_s0..0cm_2017_v1.0.tif                               29.21750
+dtm_cti_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                              29.15166
+dtm_twi_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                               29.01322
+dtm_pcurv_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                            28.78241
+hyd_height.above.neighbour_merit.hydro_m_250m_b0..0cm_2017_v1.0.tif         28.52777
+clm_monthly.temp_worldclim.chelsa.mar_l.01_1km_s0..0cm_1979..2013_v1.0.tif  28.04962
+clm_monthly.temp_worldclim.chelsa.jan_l.01_1km_s0..0cm_1979..2013_v1.0.tif  27.61737
+clm_monthly.temp_worldclim.chelsa.dec_l.01_1km_s0..0cm_1979..2013_v1.0.tif  27.47816
+dtm_dvm2_merit.dem_m_2km_s0..0cm_2017_v1.0.tif                              27.30812
+clm_monthly.temp_worldclim.chelsa.jun_m_1km_s0..0cm_1979..2013_v1.0.tif     27.13632
+dtm_roughness_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                        26.59005
+clm_snow.prob_esacci.jan_p_1km_s0..0cm_2000..2016_v1.0.tif                  25.72595
+clm_wind.speed_terraclimate.aug_m_5km_s0..0cm_1998..2018_v1.tif             25.54582
+dtm_dvm2_merit.dem_m_250m_s0..0cm_2017_v1.0.tif                             25.43853
+clm_bioclim.var_chelsa.10_m_1km_s0..0cm_1979..2013_v1.0.tif                 25.36764
+dtm_dvm_merit.dem_m_250m_s0..0cm_2017_v1.0.tif                              25.29901
+dtm_rough.scale_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                      24.68796
+dtm_downlslope.curvature_merit.dem_m_250m_s0..0cm_2017_v1.0.tif             24.60781
+clm_precipitation_sm2rain.dec_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        24.59130
+clm_precipitation_sm2rain.feb_m_1km_s0..0cm_2007..2018_v0.2.tif             24.31546
+clm_bioclim.var_chelsa.6_m_1km_s0..0cm_1979..2013_v1.0.tif                  24.25958
+clm_monthly.temp_worldclim.chelsa.oct_m_1km_s0..0cm_1979..2013_v1.0.tif     23.75390
+clm_monthly.temp_worldclim.chelsa.feb_l.01_1km_s0..0cm_1979..2013_v1.0.tif  22.87568
+clm_monthly.temp_worldclim.chelsa.nov_l.01_1km_s0..0cm_1979..2013_v1.0.tif  22.16417
+dtm_mrn_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                               22.08196
+dtm_vrm_merit.dem_m_250m_s0..0cm_2018_v1.0.tif                              22.06480
+dtm_upslope.curvature_merit.dem_m_250m_s0..0cm_2017_v1.0.tif                21.83884
+clm_monthly.temp_worldclim.chelsa.sep_m_1km_s0..0cm_1979..2013_v1.0.tif     21.57116
+clm_monthly.temp_worldclim.chelsa.sep_l.01_1km_s0..0cm_1979..2013_v1.0.tif  21.38687
+clm_precipitation_sm2rain.jan_sd.10_10km_s0..0cm_2007..2018_v1.0.tif        21.26159
+dtm_upslope.curvature_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                 21.03936
+clm_monthly.temp_worldclim.chelsa.apr_m_1km_s0..0cm_1979..2013_v1.0.tif     20.95086
+dtm_downlslope.curvature_merit.dem_m_1km_s0..0cm_2017_v1.0.tif              20.84640
+clm_monthly.temp_worldclim.chelsa.nov_m_1km_s0..0cm_1979..2013_v1.0.tif     20.57680
+clm_monthly.temp_worldclim.chelsa.oct_l.01_1km_s0..0cm_1979..2013_v1.0.tif  20.46570
+clm_snow.prob_esacci.mar_p_1km_s0..0cm_2000..2016_v1.0.tif                  19.15280
+clm_monthly.temp_worldclim.chelsa.may_u.99_1km_s0..0cm_1979..2013_v1.0.tif  19.15038
+dtm_upslope.curvature_merit.dem_m_2km_s0..0cm_2017_v1.0.tif                 18.77763
+clm_bioclim.var_chelsa.1_m_1km_s0..0cm_1979..2013_v1.0.tif                  18.64806
+clm_monthly.temp_worldclim.chelsa.apr_l.01_1km_s0..0cm_1979..2013_v1.0.tif  18.60075
+dtm_mrn_merit.dem_m_2km_s0..0cm_2017_v1.0.tif                               18.35193
+dtm_curvature_merit.dem_m_1km_s0..0cm_2017_v1.0.tif                         17.86275
+dtm_curvature_merit.dem_m_2km_s0..0cm_2017_v1.0.tif                         17.80130
+dtm_tpi_merit.dem_m_250m_s0..0cm_2017_v1.0.tif                              16.13026
+clm_monthly.temp_worldclim.chelsa.may_m_1km_s0..0cm_1979..2013_v1.0.tif     15.65166
+clm_snow.prob_esacci.feb_p_1km_s0..0cm_2000..2016_v1.0.tif                  14.73611
