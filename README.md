@@ -1,4 +1,4 @@
-# Global Maps of Potential Natural Vegetation at 1 km resolution
+# Global Maps of Potential Natural Vegetation based on Machine Learning
 
 Update of the predictions at 250 m spatial resolution is available for **[download](https://doi.org/10.5281/zenodo.3526619)**.
 
@@ -11,7 +11,7 @@ Improvements in the v0.2 of the PNV biomes map at 250 m:
 - Model errors are provided per class (derived as the weighted standard deviation between multiple models),
 - Model fine-tuning, feature selection and accuracy assessment is based on repeated cross-validation,
 
-Summary: This repository contains R code and some outputs of spatial predictions related with the production of [Global Maps of Potential Natural Vegetation](https://www.arcgis.com/apps/MapJournal/index.html?appid=1856322400844a7cab348bccfa4bee76). Three case studies were considered: (1) global distribution of biomes based on the BIOME 6000 data set (8057 modern pollen-based site reconstructions), (2) distribution of forest tree species in Europe based on detailed occurrence records (1,546,435 ground observations), and (3) global monthly Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) values (30,301 randomly-sampled points).
+*Summary*: This repository contains R code and some outputs of spatial predictions related with the production of [Global Maps of Potential Natural Vegetation](https://www.arcgis.com/apps/MapJournal/index.html?appid=1856322400844a7cab348bccfa4bee76). Three case studies were considered: (1) global distribution of biomes based on the BIOME 6000 data set (8057 modern pollen-based site reconstructions), (2) distribution of forest tree species in Europe based on detailed occurrence records (1,546,435 ground observations), and (3) global monthly Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) values (30,301 randomly-sampled points).
 
 ![alt text](https://github.com/envirometrix/PNVmaps/blob/master/img/Fig_global_biomes_map.png "Output predictions for global biomes.")
 
