@@ -1,5 +1,10 @@
 # Global Maps of Potential Natural Vegetation based on Machine Learning
 
+PNV predictions of the general land cover classes at 250 m spatial resolution is available for **[download](https://doi.org/10.5281/zenodo.3631253)**.
+
+![GLC map at 250m](img/001_pnv_predictions_glc100.png "Potential distribution of land cover classes (Potential Natural Vegetation) at 250 m spatial resolution.")
+
+
 Update of the predictions at 250 m spatial resolution is available for **[download](https://doi.org/10.5281/zenodo.3526619)**.
 
 ![Biomes map at 250m](img/001_pnv_biome.type_biome00k_c_250m_s0..0cm_2000..2017_v0.2.png "Potential distribution of biomes (Potential Natural Vegetation) at 250 m spatial resolution.")
