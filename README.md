@@ -1,3 +1,20 @@
+# Future projections of Potential Natural Vegetation across different climatic scenarios based on Machine Learning
+
+PNV predictions of the general IUCN classes and BIOME 6000 classes at 1 km spatial resolution are available for **[download](https://doi.org/10.5281/zenodo.7520813)**.
+
+![Biomes map at 1km for RCP 2.6 epoch 2040-2060](img/001_iucn_biomes.png "Potential distribution of terrestrial biomes (Potential Natural Vegetation) at 1 km spatial resolution.")
+
+Improvements in the future projections of the PNV biomes maps at 1km:
+
+- Only 72 covariates were used (temperature, precipitation and topographical covariates), but model accuracy was doubled,
+- Predictions are based on the Ensemble Machine Learning (`"classif.ranger", "classif.glmnet", "classif.xgboost"`) as implemented in the [mlr package](https://mlr.mlr-org.com/),
+- Predictions are provided in the original BIOME 6000 classification system (20 classes) and the **[IUCN Global Ecosystem Typology](https://global-ecosystems.org/page/typology)** classification system
+- Model errors are provided per class (derived as the weighted standard deviation between multiple models) for single class maps,
+- Model errors are provided using the _margin of victory_ [(Calderón-Loor et al., 2021)](https://doi.org/10.1016/j.rse.2020.112148) for hard classes maps,
+- Model fine-tuning and accuracy assessment is based on repeated 5-fold spatial cross-validation,
+- Predictions are provided for current and future epochs (2040-2060 and 2060-2080) under three climatic scenarios (RCP 2.6, RCP 4.5 and RCP 8.5).
+
+
 # Global Maps of Potential Natural Vegetation based on Machine Learning
 
 PNV predictions of the general land cover classes at 250 m spatial resolution is available for **[download](https://doi.org/10.5281/zenodo.3631253)**.
