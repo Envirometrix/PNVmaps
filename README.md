@@ -43,6 +43,10 @@ Improvements in the v0.2 of the PNV biomes map at 250 m:
 
 *Please cite as:*
 
+Future projections:
+* Bonannella C, Hengl T, Parente L, de Bruin S. 2023. **[Biomes of the world under climate change scenarios: increasing aridity and higher temperatures lead to significant shifts in natural vegetation](https://doi.org/10.7717/peerj.15593)**. PeerJ 11:e15593 https://doi.org/10.7717/peerj.15593
+
+Original PNV maps:
 * Hengl T, Walsh MG, Sanderman J, Wheeler I, Harrison SP, Prentice IC. 2018. **[Global mapping of potential natural vegetation: an assessment of machine learning algorithms for estimating land potential](https://doi.org/10.7717/peerj.5457)**. PeerJ 6:e5457 https://doi.org/10.7717/peerj.5457
 
 # Download Maps
